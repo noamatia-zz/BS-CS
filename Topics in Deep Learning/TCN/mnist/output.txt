@@ -1,0 +1,843 @@
+
+Model: TCNMerge, Epoch: 1/10, Batch: 50/938, Loss: 0.49403
+Model: TCNMerge, Epoch: 1/10, Batch: 100/938, Loss: 0.21392
+Model: TCNMerge, Epoch: 1/10, Batch: 150/938, Loss: 0.27882
+Model: TCNMerge, Epoch: 1/10, Batch: 200/938, Loss: 0.29152
+Model: TCNMerge, Epoch: 1/10, Batch: 250/938, Loss: 0.26311
+Model: TCNMerge, Epoch: 1/10, Batch: 300/938, Loss: 0.20888
+Model: TCNMerge, Epoch: 1/10, Batch: 350/938, Loss: 0.05253
+Model: TCNMerge, Epoch: 1/10, Batch: 400/938, Loss: 0.22623
+Model: TCNMerge, Epoch: 1/10, Batch: 450/938, Loss: 0.22812
+Model: TCNMerge, Epoch: 1/10, Batch: 500/938, Loss: 0.20085
+Model: TCNMerge, Epoch: 1/10, Batch: 550/938, Loss: 0.20731
+Model: TCNMerge, Epoch: 1/10, Batch: 600/938, Loss: 0.41987
+Model: TCNMerge, Epoch: 1/10, Batch: 650/938, Loss: 0.24478
+Model: TCNMerge, Epoch: 1/10, Batch: 700/938, Loss: 0.19580
+Model: TCNMerge, Epoch: 1/10, Batch: 750/938, Loss: 0.14181
+Model: TCNMerge, Epoch: 1/10, Batch: 800/938, Loss: 0.18204
+Model: TCNMerge, Epoch: 1/10, Batch: 850/938, Loss: 0.08681
+Model: TCNMerge, Epoch: 1/10, Batch: 900/938, Loss: 0.09346
+------------------------------------------------------
+Model: TCNMerge, Epoch: 1/10, Correct Predictions: 9567/10000, Accuracy: 95.67 %
+------------------------------------------------------
+Model: TCNMerge, Epoch: 2/10, Batch: 50/938, Loss: 0.00941
+Model: TCNMerge, Epoch: 2/10, Batch: 100/938, Loss: 0.02948
+Model: TCNMerge, Epoch: 2/10, Batch: 150/938, Loss: 0.09973
+Model: TCNMerge, Epoch: 2/10, Batch: 200/938, Loss: 0.06960
+Model: TCNMerge, Epoch: 2/10, Batch: 250/938, Loss: 0.19185
+Model: TCNMerge, Epoch: 2/10, Batch: 300/938, Loss: 0.09851
+Model: TCNMerge, Epoch: 2/10, Batch: 350/938, Loss: 0.00636
+Model: TCNMerge, Epoch: 2/10, Batch: 400/938, Loss: 0.18538
+Model: TCNMerge, Epoch: 2/10, Batch: 450/938, Loss: 0.20621
+Model: TCNMerge, Epoch: 2/10, Batch: 500/938, Loss: 0.13057
+Model: TCNMerge, Epoch: 2/10, Batch: 550/938, Loss: 0.11012
+Model: TCNMerge, Epoch: 2/10, Batch: 600/938, Loss: 0.17498
+Model: TCNMerge, Epoch: 2/10, Batch: 650/938, Loss: 0.13732
+Model: TCNMerge, Epoch: 2/10, Batch: 700/938, Loss: 0.07838
+Model: TCNMerge, Epoch: 2/10, Batch: 750/938, Loss: 0.03132
+Model: TCNMerge, Epoch: 2/10, Batch: 800/938, Loss: 0.15329
+Model: TCNMerge, Epoch: 2/10, Batch: 850/938, Loss: 0.03860
+Model: TCNMerge, Epoch: 2/10, Batch: 900/938, Loss: 0.12682
+------------------------------------------------------
+Model: TCNMerge, Epoch: 2/10, Correct Predictions: 9588/10000, Accuracy: 95.88 %
+------------------------------------------------------
+Model: TCNMerge, Epoch: 3/10, Batch: 50/938, Loss: 0.00864
+Model: TCNMerge, Epoch: 3/10, Batch: 100/938, Loss: 0.04319
+Model: TCNMerge, Epoch: 3/10, Batch: 150/938, Loss: 0.12366
+Model: TCNMerge, Epoch: 3/10, Batch: 200/938, Loss: 0.08537
+Model: TCNMerge, Epoch: 3/10, Batch: 250/938, Loss: 0.23854
+Model: TCNMerge, Epoch: 3/10, Batch: 300/938, Loss: 0.08204
+Model: TCNMerge, Epoch: 3/10, Batch: 350/938, Loss: 0.00164
+Model: TCNMerge, Epoch: 3/10, Batch: 400/938, Loss: 0.17006
+Model: TCNMerge, Epoch: 3/10, Batch: 450/938, Loss: 0.17450
+Model: TCNMerge, Epoch: 3/10, Batch: 500/938, Loss: 0.11738
+Model: TCNMerge, Epoch: 3/10, Batch: 550/938, Loss: 0.03484
+Model: TCNMerge, Epoch: 3/10, Batch: 600/938, Loss: 0.13708
+Model: TCNMerge, Epoch: 3/10, Batch: 650/938, Loss: 0.11633
+Model: TCNMerge, Epoch: 3/10, Batch: 700/938, Loss: 0.06640
+Model: TCNMerge, Epoch: 3/10, Batch: 750/938, Loss: 0.07980
+Model: TCNMerge, Epoch: 3/10, Batch: 800/938, Loss: 0.09579
+Model: TCNMerge, Epoch: 3/10, Batch: 850/938, Loss: 0.03098
+Model: TCNMerge, Epoch: 3/10, Batch: 900/938, Loss: 0.12818
+------------------------------------------------------
+Model: TCNMerge, Epoch: 3/10, Correct Predictions: 9748/10000, Accuracy: 97.48 %
+------------------------------------------------------
+Model: TCNMerge, Epoch: 4/10, Batch: 50/938, Loss: 0.00524
+Model: TCNMerge, Epoch: 4/10, Batch: 100/938, Loss: 0.01904
+Model: TCNMerge, Epoch: 4/10, Batch: 150/938, Loss: 0.13828
+Model: TCNMerge, Epoch: 4/10, Batch: 200/938, Loss: 0.02892
+Model: TCNMerge, Epoch: 4/10, Batch: 250/938, Loss: 0.14771
+Model: TCNMerge, Epoch: 4/10, Batch: 300/938, Loss: 0.08825
+Model: TCNMerge, Epoch: 4/10, Batch: 350/938, Loss: 0.00367
+Model: TCNMerge, Epoch: 4/10, Batch: 400/938, Loss: 0.17442
+Model: TCNMerge, Epoch: 4/10, Batch: 450/938, Loss: 0.20767
+Model: TCNMerge, Epoch: 4/10, Batch: 500/938, Loss: 0.05748
+Model: TCNMerge, Epoch: 4/10, Batch: 550/938, Loss: 0.02979
+Model: TCNMerge, Epoch: 4/10, Batch: 600/938, Loss: 0.11064
+Model: TCNMerge, Epoch: 4/10, Batch: 650/938, Loss: 0.07479
+Model: TCNMerge, Epoch: 4/10, Batch: 700/938, Loss: 0.06331
+Model: TCNMerge, Epoch: 4/10, Batch: 750/938, Loss: 0.07285
+Model: TCNMerge, Epoch: 4/10, Batch: 800/938, Loss: 0.09792
+Model: TCNMerge, Epoch: 4/10, Batch: 850/938, Loss: 0.02013
+Model: TCNMerge, Epoch: 4/10, Batch: 900/938, Loss: 0.05547
+------------------------------------------------------
+Model: TCNMerge, Epoch: 4/10, Correct Predictions: 9765/10000, Accuracy: 97.65 %
+------------------------------------------------------
+Model: TCNMerge, Epoch: 5/10, Batch: 50/938, Loss: 0.03932
+Model: TCNMerge, Epoch: 5/10, Batch: 100/938, Loss: 0.01764
+Model: TCNMerge, Epoch: 5/10, Batch: 150/938, Loss: 0.08567
+Model: TCNMerge, Epoch: 5/10, Batch: 200/938, Loss: 0.01081
+Model: TCNMerge, Epoch: 5/10, Batch: 250/938, Loss: 0.11645
+Model: TCNMerge, Epoch: 5/10, Batch: 300/938, Loss: 0.07834
+Model: TCNMerge, Epoch: 5/10, Batch: 350/938, Loss: 0.00491
+Model: TCNMerge, Epoch: 5/10, Batch: 400/938, Loss: 0.23777
+Model: TCNMerge, Epoch: 5/10, Batch: 450/938, Loss: 0.09553
+Model: TCNMerge, Epoch: 5/10, Batch: 500/938, Loss: 0.05753
+Model: TCNMerge, Epoch: 5/10, Batch: 550/938, Loss: 0.03363
+Model: TCNMerge, Epoch: 5/10, Batch: 600/938, Loss: 0.08487
+Model: TCNMerge, Epoch: 5/10, Batch: 650/938, Loss: 0.09796
+Model: TCNMerge, Epoch: 5/10, Batch: 700/938, Loss: 0.04099
+Model: TCNMerge, Epoch: 5/10, Batch: 750/938, Loss: 0.03323
+Model: TCNMerge, Epoch: 5/10, Batch: 800/938, Loss: 0.02849
+Model: TCNMerge, Epoch: 5/10, Batch: 850/938, Loss: 0.05965
+Model: TCNMerge, Epoch: 5/10, Batch: 900/938, Loss: 0.08473
+------------------------------------------------------
+Model: TCNMerge, Epoch: 5/10, Correct Predictions: 9785/10000, Accuracy: 97.85 %
+------------------------------------------------------
+Model: TCNMerge, Epoch: 6/10, Batch: 50/938, Loss: 0.00402
+Model: TCNMerge, Epoch: 6/10, Batch: 100/938, Loss: 0.01638
+Model: TCNMerge, Epoch: 6/10, Batch: 150/938, Loss: 0.09810
+Model: TCNMerge, Epoch: 6/10, Batch: 200/938, Loss: 0.01356
+Model: TCNMerge, Epoch: 6/10, Batch: 250/938, Loss: 0.08253
+Model: TCNMerge, Epoch: 6/10, Batch: 300/938, Loss: 0.02796
+Model: TCNMerge, Epoch: 6/10, Batch: 350/938, Loss: 0.00401
+Model: TCNMerge, Epoch: 6/10, Batch: 400/938, Loss: 0.20832
+Model: TCNMerge, Epoch: 6/10, Batch: 450/938, Loss: 0.05315
+Model: TCNMerge, Epoch: 6/10, Batch: 500/938, Loss: 0.02200
+Model: TCNMerge, Epoch: 6/10, Batch: 550/938, Loss: 0.09439
+Model: TCNMerge, Epoch: 6/10, Batch: 600/938, Loss: 0.09845
+Model: TCNMerge, Epoch: 6/10, Batch: 650/938, Loss: 0.17847
+Model: TCNMerge, Epoch: 6/10, Batch: 700/938, Loss: 0.05933
+Model: TCNMerge, Epoch: 6/10, Batch: 750/938, Loss: 0.01136
+Model: TCNMerge, Epoch: 6/10, Batch: 800/938, Loss: 0.00796
+Model: TCNMerge, Epoch: 6/10, Batch: 850/938, Loss: 0.03135
+Model: TCNMerge, Epoch: 6/10, Batch: 900/938, Loss: 0.09535
+------------------------------------------------------
+Model: TCNMerge, Epoch: 6/10, Correct Predictions: 9795/10000, Accuracy: 97.95 %
+------------------------------------------------------
+Model: TCNMerge, Epoch: 7/10, Batch: 50/938, Loss: 0.00233
+Model: TCNMerge, Epoch: 7/10, Batch: 100/938, Loss: 0.00769
+Model: TCNMerge, Epoch: 7/10, Batch: 150/938, Loss: 0.15303
+Model: TCNMerge, Epoch: 7/10, Batch: 200/938, Loss: 0.02373
+Model: TCNMerge, Epoch: 7/10, Batch: 250/938, Loss: 0.07557
+Model: TCNMerge, Epoch: 7/10, Batch: 300/938, Loss: 0.02478
+Model: TCNMerge, Epoch: 7/10, Batch: 350/938, Loss: 0.00591
+Model: TCNMerge, Epoch: 7/10, Batch: 400/938, Loss: 0.17833
+Model: TCNMerge, Epoch: 7/10, Batch: 450/938, Loss: 0.06718
+Model: TCNMerge, Epoch: 7/10, Batch: 500/938, Loss: 0.04098
+Model: TCNMerge, Epoch: 7/10, Batch: 550/938, Loss: 0.07291
+Model: TCNMerge, Epoch: 7/10, Batch: 600/938, Loss: 0.09896
+Model: TCNMerge, Epoch: 7/10, Batch: 650/938, Loss: 0.08222
+Model: TCNMerge, Epoch: 7/10, Batch: 700/938, Loss: 0.03546
+Model: TCNMerge, Epoch: 7/10, Batch: 750/938, Loss: 0.05856
+Model: TCNMerge, Epoch: 7/10, Batch: 800/938, Loss: 0.02767
+Model: TCNMerge, Epoch: 7/10, Batch: 850/938, Loss: 0.02626
+Model: TCNMerge, Epoch: 7/10, Batch: 900/938, Loss: 0.05277
+------------------------------------------------------
+Model: TCNMerge, Epoch: 7/10, Correct Predictions: 9731/10000, Accuracy: 97.31 %
+------------------------------------------------------
+Model: TCNMerge, Epoch: 8/10, Batch: 50/938, Loss: 0.00708
+Model: TCNMerge, Epoch: 8/10, Batch: 100/938, Loss: 0.02654
+Model: TCNMerge, Epoch: 8/10, Batch: 150/938, Loss: 0.04056
+Model: TCNMerge, Epoch: 8/10, Batch: 200/938, Loss: 0.02558
+Model: TCNMerge, Epoch: 8/10, Batch: 250/938, Loss: 0.12823
+Model: TCNMerge, Epoch: 8/10, Batch: 300/938, Loss: 0.01230
+Model: TCNMerge, Epoch: 8/10, Batch: 350/938, Loss: 0.00568
+Model: TCNMerge, Epoch: 8/10, Batch: 400/938, Loss: 0.13191
+Model: TCNMerge, Epoch: 8/10, Batch: 450/938, Loss: 0.01536
+Model: TCNMerge, Epoch: 8/10, Batch: 500/938, Loss: 0.07312
+Model: TCNMerge, Epoch: 8/10, Batch: 550/938, Loss: 0.01687
+Model: TCNMerge, Epoch: 8/10, Batch: 600/938, Loss: 0.08524
+Model: TCNMerge, Epoch: 8/10, Batch: 650/938, Loss: 0.12807
+Model: TCNMerge, Epoch: 8/10, Batch: 700/938, Loss: 0.03771
+Model: TCNMerge, Epoch: 8/10, Batch: 750/938, Loss: 0.00972
+Model: TCNMerge, Epoch: 8/10, Batch: 800/938, Loss: 0.04125
+Model: TCNMerge, Epoch: 8/10, Batch: 850/938, Loss: 0.04154
+Model: TCNMerge, Epoch: 8/10, Batch: 900/938, Loss: 0.04776
+------------------------------------------------------
+Model: TCNMerge, Epoch: 8/10, Correct Predictions: 9826/10000, Accuracy: 98.26 %
+------------------------------------------------------
+Model: TCNMerge, Epoch: 9/10, Batch: 50/938, Loss: 0.00344
+Model: TCNMerge, Epoch: 9/10, Batch: 100/938, Loss: 0.00411
+Model: TCNMerge, Epoch: 9/10, Batch: 150/938, Loss: 0.02028
+Model: TCNMerge, Epoch: 9/10, Batch: 200/938, Loss: 0.05417
+Model: TCNMerge, Epoch: 9/10, Batch: 250/938, Loss: 0.03174
+Model: TCNMerge, Epoch: 9/10, Batch: 300/938, Loss: 0.04381
+Model: TCNMerge, Epoch: 9/10, Batch: 350/938, Loss: 0.00403
+Model: TCNMerge, Epoch: 9/10, Batch: 400/938, Loss: 0.13614
+Model: TCNMerge, Epoch: 9/10, Batch: 450/938, Loss: 0.09106
+Model: TCNMerge, Epoch: 9/10, Batch: 500/938, Loss: 0.03242
+Model: TCNMerge, Epoch: 9/10, Batch: 550/938, Loss: 0.01615
+Model: TCNMerge, Epoch: 9/10, Batch: 600/938, Loss: 0.02274
+Model: TCNMerge, Epoch: 9/10, Batch: 650/938, Loss: 0.08503
+Model: TCNMerge, Epoch: 9/10, Batch: 700/938, Loss: 0.02736
+Model: TCNMerge, Epoch: 9/10, Batch: 750/938, Loss: 0.01503
+Model: TCNMerge, Epoch: 9/10, Batch: 800/938, Loss: 0.02097
+Model: TCNMerge, Epoch: 9/10, Batch: 850/938, Loss: 0.03632
+Model: TCNMerge, Epoch: 9/10, Batch: 900/938, Loss: 0.01625
+------------------------------------------------------
+Model: TCNMerge, Epoch: 9/10, Correct Predictions: 9815/10000, Accuracy: 98.15 %
+------------------------------------------------------
+Model: TCNMerge, Epoch: 10/10, Batch: 50/938, Loss: 0.00315
+Model: TCNMerge, Epoch: 10/10, Batch: 100/938, Loss: 0.03799
+Model: TCNMerge, Epoch: 10/10, Batch: 150/938, Loss: 0.04921
+Model: TCNMerge, Epoch: 10/10, Batch: 200/938, Loss: 0.01026
+Model: TCNMerge, Epoch: 10/10, Batch: 250/938, Loss: 0.05351
+Model: TCNMerge, Epoch: 10/10, Batch: 300/938, Loss: 0.01157
+Model: TCNMerge, Epoch: 10/10, Batch: 350/938, Loss: 0.00091
+Model: TCNMerge, Epoch: 10/10, Batch: 400/938, Loss: 0.08480
+Model: TCNMerge, Epoch: 10/10, Batch: 450/938, Loss: 0.01203
+Model: TCNMerge, Epoch: 10/10, Batch: 500/938, Loss: 0.04370
+Model: TCNMerge, Epoch: 10/10, Batch: 550/938, Loss: 0.01181
+Model: TCNMerge, Epoch: 10/10, Batch: 600/938, Loss: 0.06230
+Model: TCNMerge, Epoch: 10/10, Batch: 650/938, Loss: 0.13689
+Model: TCNMerge, Epoch: 10/10, Batch: 700/938, Loss: 0.03837
+Model: TCNMerge, Epoch: 10/10, Batch: 750/938, Loss: 0.01521
+Model: TCNMerge, Epoch: 10/10, Batch: 800/938, Loss: 0.02056
+Model: TCNMerge, Epoch: 10/10, Batch: 850/938, Loss: 0.02012
+Model: TCNMerge, Epoch: 10/10, Batch: 900/938, Loss: 0.02468
+------------------------------------------------------
+Model: TCNMerge, Epoch: 10/10, Correct Predictions: 9841/10000, Accuracy: 98.41 %
+------------------------------------------------------
+Model: TCN, Epoch: 1/10, Batch: 50/938, Loss: 0.60668
+Model: TCN, Epoch: 1/10, Batch: 100/938, Loss: 0.59366
+Model: TCN, Epoch: 1/10, Batch: 150/938, Loss: 0.68593
+Model: TCN, Epoch: 1/10, Batch: 200/938, Loss: 0.74945
+Model: TCN, Epoch: 1/10, Batch: 250/938, Loss: 0.78504
+Model: TCN, Epoch: 1/10, Batch: 300/938, Loss: 0.45607
+Model: TCN, Epoch: 1/10, Batch: 350/938, Loss: 0.15491
+Model: TCN, Epoch: 1/10, Batch: 400/938, Loss: 0.49575
+Model: TCN, Epoch: 1/10, Batch: 450/938, Loss: 0.41772
+Model: TCN, Epoch: 1/10, Batch: 500/938, Loss: 0.40933
+Model: TCN, Epoch: 1/10, Batch: 550/938, Loss: 0.37895
+Model: TCN, Epoch: 1/10, Batch: 600/938, Loss: 0.55697
+Model: TCN, Epoch: 1/10, Batch: 650/938, Loss: 0.53705
+Model: TCN, Epoch: 1/10, Batch: 700/938, Loss: 0.44518
+Model: TCN, Epoch: 1/10, Batch: 750/938, Loss: 0.39449
+Model: TCN, Epoch: 1/10, Batch: 800/938, Loss: 0.40844
+Model: TCN, Epoch: 1/10, Batch: 850/938, Loss: 0.25329
+Model: TCN, Epoch: 1/10, Batch: 900/938, Loss: 0.24195
+------------------------------------------------------
+Model: TCN, Epoch: 1/10, Correct Predictions: 8673/10000, Accuracy: 86.73 %
+------------------------------------------------------
+Model: TCN, Epoch: 2/10, Batch: 50/938, Loss: 0.21774
+Model: TCN, Epoch: 2/10, Batch: 100/938, Loss: 0.24622
+Model: TCN, Epoch: 2/10, Batch: 150/938, Loss: 0.33560
+Model: TCN, Epoch: 2/10, Batch: 200/938, Loss: 0.40545
+Model: TCN, Epoch: 2/10, Batch: 250/938, Loss: 0.53685
+Model: TCN, Epoch: 2/10, Batch: 300/938, Loss: 0.28454
+Model: TCN, Epoch: 2/10, Batch: 350/938, Loss: 0.08053
+Model: TCN, Epoch: 2/10, Batch: 400/938, Loss: 0.48548
+Model: TCN, Epoch: 2/10, Batch: 450/938, Loss: 0.33631
+Model: TCN, Epoch: 2/10, Batch: 500/938, Loss: 0.26423
+Model: TCN, Epoch: 2/10, Batch: 550/938, Loss: 0.28040
+Model: TCN, Epoch: 2/10, Batch: 600/938, Loss: 0.44062
+Model: TCN, Epoch: 2/10, Batch: 650/938, Loss: 0.40131
+Model: TCN, Epoch: 2/10, Batch: 700/938, Loss: 0.37412
+Model: TCN, Epoch: 2/10, Batch: 750/938, Loss: 0.29581
+Model: TCN, Epoch: 2/10, Batch: 800/938, Loss: 0.29538
+Model: TCN, Epoch: 2/10, Batch: 850/938, Loss: 0.21142
+Model: TCN, Epoch: 2/10, Batch: 900/938, Loss: 0.27818
+------------------------------------------------------
+Model: TCN, Epoch: 2/10, Correct Predictions: 8955/10000, Accuracy: 89.55 %
+------------------------------------------------------
+Model: TCN, Epoch: 3/10, Batch: 50/938, Loss: 0.15825
+Model: TCN, Epoch: 3/10, Batch: 100/938, Loss: 0.19884
+Model: TCN, Epoch: 3/10, Batch: 150/938, Loss: 0.26618
+Model: TCN, Epoch: 3/10, Batch: 200/938, Loss: 0.31317
+Model: TCN, Epoch: 3/10, Batch: 250/938, Loss: 0.43626
+Model: TCN, Epoch: 3/10, Batch: 300/938, Loss: 0.28066
+Model: TCN, Epoch: 3/10, Batch: 350/938, Loss: 0.06747
+Model: TCN, Epoch: 3/10, Batch: 400/938, Loss: 0.39869
+Model: TCN, Epoch: 3/10, Batch: 450/938, Loss: 0.28267
+Model: TCN, Epoch: 3/10, Batch: 500/938, Loss: 0.20851
+Model: TCN, Epoch: 3/10, Batch: 550/938, Loss: 0.26849
+Model: TCN, Epoch: 3/10, Batch: 600/938, Loss: 0.43256
+Model: TCN, Epoch: 3/10, Batch: 650/938, Loss: 0.34472
+Model: TCN, Epoch: 3/10, Batch: 700/938, Loss: 0.36173
+Model: TCN, Epoch: 3/10, Batch: 750/938, Loss: 0.26312
+Model: TCN, Epoch: 3/10, Batch: 800/938, Loss: 0.22951
+Model: TCN, Epoch: 3/10, Batch: 850/938, Loss: 0.17274
+Model: TCN, Epoch: 3/10, Batch: 900/938, Loss: 0.23497
+------------------------------------------------------
+Model: TCN, Epoch: 3/10, Correct Predictions: 9012/10000, Accuracy: 90.12 %
+------------------------------------------------------
+Model: TCN, Epoch: 4/10, Batch: 50/938, Loss: 0.12923
+Model: TCN, Epoch: 4/10, Batch: 100/938, Loss: 0.10631
+Model: TCN, Epoch: 4/10, Batch: 150/938, Loss: 0.27821
+Model: TCN, Epoch: 4/10, Batch: 200/938, Loss: 0.29708
+Model: TCN, Epoch: 4/10, Batch: 250/938, Loss: 0.41156
+Model: TCN, Epoch: 4/10, Batch: 300/938, Loss: 0.21318
+Model: TCN, Epoch: 4/10, Batch: 350/938, Loss: 0.06724
+Model: TCN, Epoch: 4/10, Batch: 400/938, Loss: 0.37365
+Model: TCN, Epoch: 4/10, Batch: 450/938, Loss: 0.25198
+Model: TCN, Epoch: 4/10, Batch: 500/938, Loss: 0.17841
+Model: TCN, Epoch: 4/10, Batch: 550/938, Loss: 0.23750
+Model: TCN, Epoch: 4/10, Batch: 600/938, Loss: 0.45784
+Model: TCN, Epoch: 4/10, Batch: 650/938, Loss: 0.32303
+Model: TCN, Epoch: 4/10, Batch: 700/938, Loss: 0.36045
+Model: TCN, Epoch: 4/10, Batch: 750/938, Loss: 0.27530
+Model: TCN, Epoch: 4/10, Batch: 800/938, Loss: 0.16745
+Model: TCN, Epoch: 4/10, Batch: 850/938, Loss: 0.15242
+Model: TCN, Epoch: 4/10, Batch: 900/938, Loss: 0.21854
+------------------------------------------------------
+Model: TCN, Epoch: 4/10, Correct Predictions: 9085/10000, Accuracy: 90.85 %
+------------------------------------------------------
+Model: TCN, Epoch: 5/10, Batch: 50/938, Loss: 0.09204
+Model: TCN, Epoch: 5/10, Batch: 100/938, Loss: 0.12016
+Model: TCN, Epoch: 5/10, Batch: 150/938, Loss: 0.25900
+Model: TCN, Epoch: 5/10, Batch: 200/938, Loss: 0.26954
+Model: TCN, Epoch: 5/10, Batch: 250/938, Loss: 0.44273
+Model: TCN, Epoch: 5/10, Batch: 300/938, Loss: 0.16506
+Model: TCN, Epoch: 5/10, Batch: 350/938, Loss: 0.04851
+Model: TCN, Epoch: 5/10, Batch: 400/938, Loss: 0.39775
+Model: TCN, Epoch: 5/10, Batch: 450/938, Loss: 0.22654
+Model: TCN, Epoch: 5/10, Batch: 500/938, Loss: 0.19675
+Model: TCN, Epoch: 5/10, Batch: 550/938, Loss: 0.21611
+Model: TCN, Epoch: 5/10, Batch: 600/938, Loss: 0.41053
+Model: TCN, Epoch: 5/10, Batch: 650/938, Loss: 0.33232
+Model: TCN, Epoch: 5/10, Batch: 700/938, Loss: 0.23518
+Model: TCN, Epoch: 5/10, Batch: 750/938, Loss: 0.21017
+Model: TCN, Epoch: 5/10, Batch: 800/938, Loss: 0.14114
+Model: TCN, Epoch: 5/10, Batch: 850/938, Loss: 0.17389
+Model: TCN, Epoch: 5/10, Batch: 900/938, Loss: 0.20313
+------------------------------------------------------
+Model: TCN, Epoch: 5/10, Correct Predictions: 9086/10000, Accuracy: 90.86 %
+------------------------------------------------------
+Model: TCN, Epoch: 6/10, Batch: 50/938, Loss: 0.06742
+Model: TCN, Epoch: 6/10, Batch: 100/938, Loss: 0.09802
+Model: TCN, Epoch: 6/10, Batch: 150/938, Loss: 0.27817
+Model: TCN, Epoch: 6/10, Batch: 200/938, Loss: 0.31993
+Model: TCN, Epoch: 6/10, Batch: 250/938, Loss: 0.40265
+Model: TCN, Epoch: 6/10, Batch: 300/938, Loss: 0.17324
+Model: TCN, Epoch: 6/10, Batch: 350/938, Loss: 0.08329
+Model: TCN, Epoch: 6/10, Batch: 400/938, Loss: 0.33556
+Model: TCN, Epoch: 6/10, Batch: 450/938, Loss: 0.24112
+Model: TCN, Epoch: 6/10, Batch: 500/938, Loss: 0.17170
+Model: TCN, Epoch: 6/10, Batch: 550/938, Loss: 0.25290
+Model: TCN, Epoch: 6/10, Batch: 600/938, Loss: 0.44798
+Model: TCN, Epoch: 6/10, Batch: 650/938, Loss: 0.24654
+Model: TCN, Epoch: 6/10, Batch: 700/938, Loss: 0.27645
+Model: TCN, Epoch: 6/10, Batch: 750/938, Loss: 0.17847
+Model: TCN, Epoch: 6/10, Batch: 800/938, Loss: 0.16423
+Model: TCN, Epoch: 6/10, Batch: 850/938, Loss: 0.12335
+Model: TCN, Epoch: 6/10, Batch: 900/938, Loss: 0.18431
+------------------------------------------------------
+Model: TCN, Epoch: 6/10, Correct Predictions: 9096/10000, Accuracy: 90.96 %
+------------------------------------------------------
+Model: TCN, Epoch: 7/10, Batch: 50/938, Loss: 0.09137
+Model: TCN, Epoch: 7/10, Batch: 100/938, Loss: 0.10564
+Model: TCN, Epoch: 7/10, Batch: 150/938, Loss: 0.21055
+Model: TCN, Epoch: 7/10, Batch: 200/938, Loss: 0.26202
+Model: TCN, Epoch: 7/10, Batch: 250/938, Loss: 0.38253
+Model: TCN, Epoch: 7/10, Batch: 300/938, Loss: 0.12992
+Model: TCN, Epoch: 7/10, Batch: 350/938, Loss: 0.06448
+Model: TCN, Epoch: 7/10, Batch: 400/938, Loss: 0.35906
+Model: TCN, Epoch: 7/10, Batch: 450/938, Loss: 0.21575
+Model: TCN, Epoch: 7/10, Batch: 500/938, Loss: 0.11730
+Model: TCN, Epoch: 7/10, Batch: 550/938, Loss: 0.17858
+Model: TCN, Epoch: 7/10, Batch: 600/938, Loss: 0.36218
+Model: TCN, Epoch: 7/10, Batch: 650/938, Loss: 0.25767
+Model: TCN, Epoch: 7/10, Batch: 700/938, Loss: 0.20507
+Model: TCN, Epoch: 7/10, Batch: 750/938, Loss: 0.19581
+Model: TCN, Epoch: 7/10, Batch: 800/938, Loss: 0.13325
+Model: TCN, Epoch: 7/10, Batch: 850/938, Loss: 0.11677
+Model: TCN, Epoch: 7/10, Batch: 900/938, Loss: 0.15503
+------------------------------------------------------
+Model: TCN, Epoch: 7/10, Correct Predictions: 9078/10000, Accuracy: 90.78 %
+------------------------------------------------------
+Model: TCN, Epoch: 8/10, Batch: 50/938, Loss: 0.07287
+Model: TCN, Epoch: 8/10, Batch: 100/938, Loss: 0.08411
+Model: TCN, Epoch: 8/10, Batch: 150/938, Loss: 0.24812
+Model: TCN, Epoch: 8/10, Batch: 200/938, Loss: 0.26964
+Model: TCN, Epoch: 8/10, Batch: 250/938, Loss: 0.33736
+Model: TCN, Epoch: 8/10, Batch: 300/938, Loss: 0.10232
+Model: TCN, Epoch: 8/10, Batch: 350/938, Loss: 0.03749
+Model: TCN, Epoch: 8/10, Batch: 400/938, Loss: 0.28229
+Model: TCN, Epoch: 8/10, Batch: 450/938, Loss: 0.16004
+Model: TCN, Epoch: 8/10, Batch: 500/938, Loss: 0.10255
+Model: TCN, Epoch: 8/10, Batch: 550/938, Loss: 0.16177
+Model: TCN, Epoch: 8/10, Batch: 600/938, Loss: 0.42028
+Model: TCN, Epoch: 8/10, Batch: 650/938, Loss: 0.21623
+Model: TCN, Epoch: 8/10, Batch: 700/938, Loss: 0.20488
+Model: TCN, Epoch: 8/10, Batch: 750/938, Loss: 0.23478
+Model: TCN, Epoch: 8/10, Batch: 800/938, Loss: 0.10667
+Model: TCN, Epoch: 8/10, Batch: 850/938, Loss: 0.14126
+Model: TCN, Epoch: 8/10, Batch: 900/938, Loss: 0.20115
+------------------------------------------------------
+Model: TCN, Epoch: 8/10, Correct Predictions: 9155/10000, Accuracy: 91.55 %
+------------------------------------------------------
+Model: TCN, Epoch: 9/10, Batch: 50/938, Loss: 0.06066
+Model: TCN, Epoch: 9/10, Batch: 100/938, Loss: 0.07324
+Model: TCN, Epoch: 9/10, Batch: 150/938, Loss: 0.22687
+Model: TCN, Epoch: 9/10, Batch: 200/938, Loss: 0.19360
+Model: TCN, Epoch: 9/10, Batch: 250/938, Loss: 0.37357
+Model: TCN, Epoch: 9/10, Batch: 300/938, Loss: 0.07236
+Model: TCN, Epoch: 9/10, Batch: 350/938, Loss: 0.04347
+Model: TCN, Epoch: 9/10, Batch: 400/938, Loss: 0.28689
+Model: TCN, Epoch: 9/10, Batch: 450/938, Loss: 0.18802
+Model: TCN, Epoch: 9/10, Batch: 500/938, Loss: 0.10937
+Model: TCN, Epoch: 9/10, Batch: 550/938, Loss: 0.16793
+Model: TCN, Epoch: 9/10, Batch: 600/938, Loss: 0.39649
+Model: TCN, Epoch: 9/10, Batch: 650/938, Loss: 0.21922
+Model: TCN, Epoch: 9/10, Batch: 700/938, Loss: 0.16111
+Model: TCN, Epoch: 9/10, Batch: 750/938, Loss: 0.13924
+Model: TCN, Epoch: 9/10, Batch: 800/938, Loss: 0.12377
+Model: TCN, Epoch: 9/10, Batch: 850/938, Loss: 0.11611
+Model: TCN, Epoch: 9/10, Batch: 900/938, Loss: 0.14297
+------------------------------------------------------
+Model: TCN, Epoch: 9/10, Correct Predictions: 9155/10000, Accuracy: 91.55 %
+------------------------------------------------------
+Model: TCN, Epoch: 10/10, Batch: 50/938, Loss: 0.08255
+Model: TCN, Epoch: 10/10, Batch: 100/938, Loss: 0.06968
+Model: TCN, Epoch: 10/10, Batch: 150/938, Loss: 0.19793
+Model: TCN, Epoch: 10/10, Batch: 200/938, Loss: 0.18569
+Model: TCN, Epoch: 10/10, Batch: 250/938, Loss: 0.32288
+Model: TCN, Epoch: 10/10, Batch: 300/938, Loss: 0.08424
+Model: TCN, Epoch: 10/10, Batch: 350/938, Loss: 0.05317
+Model: TCN, Epoch: 10/10, Batch: 400/938, Loss: 0.30306
+Model: TCN, Epoch: 10/10, Batch: 450/938, Loss: 0.15597
+Model: TCN, Epoch: 10/10, Batch: 500/938, Loss: 0.11757
+Model: TCN, Epoch: 10/10, Batch: 550/938, Loss: 0.13537
+Model: TCN, Epoch: 10/10, Batch: 600/938, Loss: 0.29262
+Model: TCN, Epoch: 10/10, Batch: 650/938, Loss: 0.23708
+Model: TCN, Epoch: 10/10, Batch: 700/938, Loss: 0.12003
+Model: TCN, Epoch: 10/10, Batch: 750/938, Loss: 0.13998
+Model: TCN, Epoch: 10/10, Batch: 800/938, Loss: 0.13578
+Model: TCN, Epoch: 10/10, Batch: 850/938, Loss: 0.13426
+Model: TCN, Epoch: 10/10, Batch: 900/938, Loss: 0.16080
+------------------------------------------------------
+Model: TCN, Epoch: 10/10, Correct Predictions: 9121/10000, Accuracy: 91.21 %
+------------------------------------------------------
+Model: LSTM, Epoch: 1/10, Batch: 50/938, Loss: 1.06187
+Model: LSTM, Epoch: 1/10, Batch: 100/938, Loss: 0.39570
+Model: LSTM, Epoch: 1/10, Batch: 150/938, Loss: 0.47103
+Model: LSTM, Epoch: 1/10, Batch: 200/938, Loss: 0.33822
+Model: LSTM, Epoch: 1/10, Batch: 250/938, Loss: 0.26380
+Model: LSTM, Epoch: 1/10, Batch: 300/938, Loss: 0.21359
+Model: LSTM, Epoch: 1/10, Batch: 350/938, Loss: 0.07154
+Model: LSTM, Epoch: 1/10, Batch: 400/938, Loss: 0.17060
+Model: LSTM, Epoch: 1/10, Batch: 450/938, Loss: 0.21716
+Model: LSTM, Epoch: 1/10, Batch: 500/938, Loss: 0.26823
+Model: LSTM, Epoch: 1/10, Batch: 550/938, Loss: 0.04000
+Model: LSTM, Epoch: 1/10, Batch: 600/938, Loss: 0.23866
+Model: LSTM, Epoch: 1/10, Batch: 650/938, Loss: 0.18304
+Model: LSTM, Epoch: 1/10, Batch: 700/938, Loss: 0.19483
+Model: LSTM, Epoch: 1/10, Batch: 750/938, Loss: 0.12539
+Model: LSTM, Epoch: 1/10, Batch: 800/938, Loss: 0.06815
+Model: LSTM, Epoch: 1/10, Batch: 850/938, Loss: 0.05058
+Model: LSTM, Epoch: 1/10, Batch: 900/938, Loss: 0.13447
+------------------------------------------------------
+Model: LSTM, Epoch: 1/10, Correct Predictions: 9413/10000, Accuracy: 94.13 %
+------------------------------------------------------
+Model: LSTM, Epoch: 2/10, Batch: 50/938, Loss: 0.03668
+Model: LSTM, Epoch: 2/10, Batch: 100/938, Loss: 0.06501
+Model: LSTM, Epoch: 2/10, Batch: 150/938, Loss: 0.09309
+Model: LSTM, Epoch: 2/10, Batch: 200/938, Loss: 0.05388
+Model: LSTM, Epoch: 2/10, Batch: 250/938, Loss: 0.30805
+Model: LSTM, Epoch: 2/10, Batch: 300/938, Loss: 0.04372
+Model: LSTM, Epoch: 2/10, Batch: 350/938, Loss: 0.02115
+Model: LSTM, Epoch: 2/10, Batch: 400/938, Loss: 0.14541
+Model: LSTM, Epoch: 2/10, Batch: 450/938, Loss: 0.07226
+Model: LSTM, Epoch: 2/10, Batch: 500/938, Loss: 0.11835
+Model: LSTM, Epoch: 2/10, Batch: 550/938, Loss: 0.03563
+Model: LSTM, Epoch: 2/10, Batch: 600/938, Loss: 0.14994
+Model: LSTM, Epoch: 2/10, Batch: 650/938, Loss: 0.14926
+Model: LSTM, Epoch: 2/10, Batch: 700/938, Loss: 0.05765
+Model: LSTM, Epoch: 2/10, Batch: 750/938, Loss: 0.12339
+Model: LSTM, Epoch: 2/10, Batch: 800/938, Loss: 0.04943
+Model: LSTM, Epoch: 2/10, Batch: 850/938, Loss: 0.03539
+Model: LSTM, Epoch: 2/10, Batch: 900/938, Loss: 0.03294
+------------------------------------------------------
+Model: LSTM, Epoch: 2/10, Correct Predictions: 9799/10000, Accuracy: 97.99 %
+------------------------------------------------------
+Model: LSTM, Epoch: 3/10, Batch: 50/938, Loss: 0.03356
+Model: LSTM, Epoch: 3/10, Batch: 100/938, Loss: 0.02645
+Model: LSTM, Epoch: 3/10, Batch: 150/938, Loss: 0.08040
+Model: LSTM, Epoch: 3/10, Batch: 200/938, Loss: 0.04907
+Model: LSTM, Epoch: 3/10, Batch: 250/938, Loss: 0.10469
+Model: LSTM, Epoch: 3/10, Batch: 300/938, Loss: 0.04808
+Model: LSTM, Epoch: 3/10, Batch: 350/938, Loss: 0.00307
+Model: LSTM, Epoch: 3/10, Batch: 400/938, Loss: 0.08930
+Model: LSTM, Epoch: 3/10, Batch: 450/938, Loss: 0.01363
+Model: LSTM, Epoch: 3/10, Batch: 500/938, Loss: 0.12021
+Model: LSTM, Epoch: 3/10, Batch: 550/938, Loss: 0.01305
+Model: LSTM, Epoch: 3/10, Batch: 600/938, Loss: 0.05895
+Model: LSTM, Epoch: 3/10, Batch: 650/938, Loss: 0.13404
+Model: LSTM, Epoch: 3/10, Batch: 700/938, Loss: 0.00537
+Model: LSTM, Epoch: 3/10, Batch: 750/938, Loss: 0.12446
+Model: LSTM, Epoch: 3/10, Batch: 800/938, Loss: 0.01025
+Model: LSTM, Epoch: 3/10, Batch: 850/938, Loss: 0.00898
+Model: LSTM, Epoch: 3/10, Batch: 900/938, Loss: 0.04477
+------------------------------------------------------
+Model: LSTM, Epoch: 3/10, Correct Predictions: 9824/10000, Accuracy: 98.24 %
+------------------------------------------------------
+Model: LSTM, Epoch: 4/10, Batch: 50/938, Loss: 0.00272
+Model: LSTM, Epoch: 4/10, Batch: 100/938, Loss: 0.01065
+Model: LSTM, Epoch: 4/10, Batch: 150/938, Loss: 0.02032
+Model: LSTM, Epoch: 4/10, Batch: 200/938, Loss: 0.03127
+Model: LSTM, Epoch: 4/10, Batch: 250/938, Loss: 0.11273
+Model: LSTM, Epoch: 4/10, Batch: 300/938, Loss: 0.02458
+Model: LSTM, Epoch: 4/10, Batch: 350/938, Loss: 0.00443
+Model: LSTM, Epoch: 4/10, Batch: 400/938, Loss: 0.10688
+Model: LSTM, Epoch: 4/10, Batch: 450/938, Loss: 0.01477
+Model: LSTM, Epoch: 4/10, Batch: 500/938, Loss: 0.05594
+Model: LSTM, Epoch: 4/10, Batch: 550/938, Loss: 0.01656
+Model: LSTM, Epoch: 4/10, Batch: 600/938, Loss: 0.03688
+Model: LSTM, Epoch: 4/10, Batch: 650/938, Loss: 0.14984
+Model: LSTM, Epoch: 4/10, Batch: 700/938, Loss: 0.00634
+Model: LSTM, Epoch: 4/10, Batch: 750/938, Loss: 0.11817
+Model: LSTM, Epoch: 4/10, Batch: 800/938, Loss: 0.05996
+Model: LSTM, Epoch: 4/10, Batch: 850/938, Loss: 0.00751
+Model: LSTM, Epoch: 4/10, Batch: 900/938, Loss: 0.02134
+------------------------------------------------------
+Model: LSTM, Epoch: 4/10, Correct Predictions: 9865/10000, Accuracy: 98.65 %
+------------------------------------------------------
+Model: LSTM, Epoch: 5/10, Batch: 50/938, Loss: 0.01794
+Model: LSTM, Epoch: 5/10, Batch: 100/938, Loss: 0.03375
+Model: LSTM, Epoch: 5/10, Batch: 150/938, Loss: 0.01050
+Model: LSTM, Epoch: 5/10, Batch: 200/938, Loss: 0.01734
+Model: LSTM, Epoch: 5/10, Batch: 250/938, Loss: 0.05559
+Model: LSTM, Epoch: 5/10, Batch: 300/938, Loss: 0.02142
+Model: LSTM, Epoch: 5/10, Batch: 350/938, Loss: 0.00398
+Model: LSTM, Epoch: 5/10, Batch: 400/938, Loss: 0.04748
+Model: LSTM, Epoch: 5/10, Batch: 450/938, Loss: 0.01813
+Model: LSTM, Epoch: 5/10, Batch: 500/938, Loss: 0.02425
+Model: LSTM, Epoch: 5/10, Batch: 550/938, Loss: 0.02959
+Model: LSTM, Epoch: 5/10, Batch: 600/938, Loss: 0.05627
+Model: LSTM, Epoch: 5/10, Batch: 650/938, Loss: 0.11950
+Model: LSTM, Epoch: 5/10, Batch: 700/938, Loss: 0.00474
+Model: LSTM, Epoch: 5/10, Batch: 750/938, Loss: 0.00797
+Model: LSTM, Epoch: 5/10, Batch: 800/938, Loss: 0.00728
+Model: LSTM, Epoch: 5/10, Batch: 850/938, Loss: 0.00675
+Model: LSTM, Epoch: 5/10, Batch: 900/938, Loss: 0.00910
+------------------------------------------------------
+Model: LSTM, Epoch: 5/10, Correct Predictions: 9850/10000, Accuracy: 98.5 %
+------------------------------------------------------
+Model: LSTM, Epoch: 6/10, Batch: 50/938, Loss: 0.01844
+Model: LSTM, Epoch: 6/10, Batch: 100/938, Loss: 0.00824
+Model: LSTM, Epoch: 6/10, Batch: 150/938, Loss: 0.13101
+Model: LSTM, Epoch: 6/10, Batch: 200/938, Loss: 0.06258
+Model: LSTM, Epoch: 6/10, Batch: 250/938, Loss: 0.13128
+Model: LSTM, Epoch: 6/10, Batch: 300/938, Loss: 0.00805
+Model: LSTM, Epoch: 6/10, Batch: 350/938, Loss: 0.00410
+Model: LSTM, Epoch: 6/10, Batch: 400/938, Loss: 0.05833
+Model: LSTM, Epoch: 6/10, Batch: 450/938, Loss: 0.00722
+Model: LSTM, Epoch: 6/10, Batch: 500/938, Loss: 0.05438
+Model: LSTM, Epoch: 6/10, Batch: 550/938, Loss: 0.02900
+Model: LSTM, Epoch: 6/10, Batch: 600/938, Loss: 0.15913
+Model: LSTM, Epoch: 6/10, Batch: 650/938, Loss: 0.07536
+Model: LSTM, Epoch: 6/10, Batch: 700/938, Loss: 0.01883
+Model: LSTM, Epoch: 6/10, Batch: 750/938, Loss: 0.03608
+Model: LSTM, Epoch: 6/10, Batch: 800/938, Loss: 0.00722
+Model: LSTM, Epoch: 6/10, Batch: 850/938, Loss: 0.01435
+Model: LSTM, Epoch: 6/10, Batch: 900/938, Loss: 0.01797
+------------------------------------------------------
+Model: LSTM, Epoch: 6/10, Correct Predictions: 9843/10000, Accuracy: 98.43 %
+------------------------------------------------------
+Model: LSTM, Epoch: 7/10, Batch: 50/938, Loss: 0.00216
+Model: LSTM, Epoch: 7/10, Batch: 100/938, Loss: 0.07278
+Model: LSTM, Epoch: 7/10, Batch: 150/938, Loss: 0.01169
+Model: LSTM, Epoch: 7/10, Batch: 200/938, Loss: 0.03454
+Model: LSTM, Epoch: 7/10, Batch: 250/938, Loss: 0.01595
+Model: LSTM, Epoch: 7/10, Batch: 300/938, Loss: 0.00468
+Model: LSTM, Epoch: 7/10, Batch: 350/938, Loss: 0.00151
+Model: LSTM, Epoch: 7/10, Batch: 400/938, Loss: 0.03345
+Model: LSTM, Epoch: 7/10, Batch: 450/938, Loss: 0.03820
+Model: LSTM, Epoch: 7/10, Batch: 500/938, Loss: 0.01419
+Model: LSTM, Epoch: 7/10, Batch: 550/938, Loss: 0.00308
+Model: LSTM, Epoch: 7/10, Batch: 600/938, Loss: 0.13530
+Model: LSTM, Epoch: 7/10, Batch: 650/938, Loss: 0.07836
+Model: LSTM, Epoch: 7/10, Batch: 700/938, Loss: 0.00178
+Model: LSTM, Epoch: 7/10, Batch: 750/938, Loss: 0.00515
+Model: LSTM, Epoch: 7/10, Batch: 800/938, Loss: 0.00224
+Model: LSTM, Epoch: 7/10, Batch: 850/938, Loss: 0.00225
+Model: LSTM, Epoch: 7/10, Batch: 900/938, Loss: 0.01343
+------------------------------------------------------
+Model: LSTM, Epoch: 7/10, Correct Predictions: 9852/10000, Accuracy: 98.52 %
+------------------------------------------------------
+Model: LSTM, Epoch: 8/10, Batch: 50/938, Loss: 0.00135
+Model: LSTM, Epoch: 8/10, Batch: 100/938, Loss: 0.02346
+Model: LSTM, Epoch: 8/10, Batch: 150/938, Loss: 0.00811
+Model: LSTM, Epoch: 8/10, Batch: 200/938, Loss: 0.02954
+Model: LSTM, Epoch: 8/10, Batch: 250/938, Loss: 0.05914
+Model: LSTM, Epoch: 8/10, Batch: 300/938, Loss: 0.00443
+Model: LSTM, Epoch: 8/10, Batch: 350/938, Loss: 0.00107
+Model: LSTM, Epoch: 8/10, Batch: 400/938, Loss: 0.10319
+Model: LSTM, Epoch: 8/10, Batch: 450/938, Loss: 0.01264
+Model: LSTM, Epoch: 8/10, Batch: 500/938, Loss: 0.04023
+Model: LSTM, Epoch: 8/10, Batch: 550/938, Loss: 0.08801
+Model: LSTM, Epoch: 8/10, Batch: 600/938, Loss: 0.07458
+Model: LSTM, Epoch: 8/10, Batch: 650/938, Loss: 0.08019
+Model: LSTM, Epoch: 8/10, Batch: 700/938, Loss: 0.00144
+Model: LSTM, Epoch: 8/10, Batch: 750/938, Loss: 0.01930
+Model: LSTM, Epoch: 8/10, Batch: 800/938, Loss: 0.00155
+Model: LSTM, Epoch: 8/10, Batch: 850/938, Loss: 0.00638
+Model: LSTM, Epoch: 8/10, Batch: 900/938, Loss: 0.02086
+------------------------------------------------------
+Model: LSTM, Epoch: 8/10, Correct Predictions: 9859/10000, Accuracy: 98.59 %
+------------------------------------------------------
+Model: LSTM, Epoch: 9/10, Batch: 50/938, Loss: 0.00069
+Model: LSTM, Epoch: 9/10, Batch: 100/938, Loss: 0.01289
+Model: LSTM, Epoch: 9/10, Batch: 150/938, Loss: 0.04245
+Model: LSTM, Epoch: 9/10, Batch: 200/938, Loss: 0.01098
+Model: LSTM, Epoch: 9/10, Batch: 250/938, Loss: 0.04015
+Model: LSTM, Epoch: 9/10, Batch: 300/938, Loss: 0.00503
+Model: LSTM, Epoch: 9/10, Batch: 350/938, Loss: 0.00060
+Model: LSTM, Epoch: 9/10, Batch: 400/938, Loss: 0.08172
+Model: LSTM, Epoch: 9/10, Batch: 450/938, Loss: 0.01096
+Model: LSTM, Epoch: 9/10, Batch: 500/938, Loss: 0.02795
+Model: LSTM, Epoch: 9/10, Batch: 550/938, Loss: 0.01395
+Model: LSTM, Epoch: 9/10, Batch: 600/938, Loss: 0.13226
+Model: LSTM, Epoch: 9/10, Batch: 650/938, Loss: 0.04428
+Model: LSTM, Epoch: 9/10, Batch: 700/938, Loss: 0.00057
+Model: LSTM, Epoch: 9/10, Batch: 750/938, Loss: 0.02374
+Model: LSTM, Epoch: 9/10, Batch: 800/938, Loss: 0.00095
+Model: LSTM, Epoch: 9/10, Batch: 850/938, Loss: 0.00275
+Model: LSTM, Epoch: 9/10, Batch: 900/938, Loss: 0.00387
+------------------------------------------------------
+Model: LSTM, Epoch: 9/10, Correct Predictions: 9854/10000, Accuracy: 98.54 %
+------------------------------------------------------
+Model: LSTM, Epoch: 10/10, Batch: 50/938, Loss: 0.00309
+Model: LSTM, Epoch: 10/10, Batch: 100/938, Loss: 0.01855
+Model: LSTM, Epoch: 10/10, Batch: 150/938, Loss: 0.11832
+Model: LSTM, Epoch: 10/10, Batch: 200/938, Loss: 0.06430
+Model: LSTM, Epoch: 10/10, Batch: 250/938, Loss: 0.00778
+Model: LSTM, Epoch: 10/10, Batch: 300/938, Loss: 0.00113
+Model: LSTM, Epoch: 10/10, Batch: 350/938, Loss: 0.00118
+Model: LSTM, Epoch: 10/10, Batch: 400/938, Loss: 0.08727
+Model: LSTM, Epoch: 10/10, Batch: 450/938, Loss: 0.00424
+Model: LSTM, Epoch: 10/10, Batch: 500/938, Loss: 0.03010
+Model: LSTM, Epoch: 10/10, Batch: 550/938, Loss: 0.02899
+Model: LSTM, Epoch: 10/10, Batch: 600/938, Loss: 0.09005
+Model: LSTM, Epoch: 10/10, Batch: 650/938, Loss: 0.05275
+Model: LSTM, Epoch: 10/10, Batch: 700/938, Loss: 0.00633
+Model: LSTM, Epoch: 10/10, Batch: 750/938, Loss: 0.00109
+Model: LSTM, Epoch: 10/10, Batch: 800/938, Loss: 0.00371
+Model: LSTM, Epoch: 10/10, Batch: 850/938, Loss: 0.09232
+Model: LSTM, Epoch: 10/10, Batch: 900/938, Loss: 0.01673
+------------------------------------------------------
+Model: LSTM, Epoch: 10/10, Correct Predictions: 9815/10000, Accuracy: 98.15 %
+------------------------------------------------------
+Model: RNN, Epoch: 1/10, Batch: 50/938, Loss: 1.33179
+Model: RNN, Epoch: 1/10, Batch: 100/938, Loss: 1.17231
+Model: RNN, Epoch: 1/10, Batch: 150/938, Loss: 1.16282
+Model: RNN, Epoch: 1/10, Batch: 200/938, Loss: 0.74238
+Model: RNN, Epoch: 1/10, Batch: 250/938, Loss: 1.15050
+Model: RNN, Epoch: 1/10, Batch: 300/938, Loss: 0.69601
+Model: RNN, Epoch: 1/10, Batch: 350/938, Loss: 0.47640
+Model: RNN, Epoch: 1/10, Batch: 400/938, Loss: 0.64692
+Model: RNN, Epoch: 1/10, Batch: 450/938, Loss: 0.59638
+Model: RNN, Epoch: 1/10, Batch: 500/938, Loss: 0.64657
+Model: RNN, Epoch: 1/10, Batch: 550/938, Loss: 0.46616
+Model: RNN, Epoch: 1/10, Batch: 600/938, Loss: 0.46192
+Model: RNN, Epoch: 1/10, Batch: 650/938, Loss: 0.66041
+Model: RNN, Epoch: 1/10, Batch: 700/938, Loss: 0.43386
+Model: RNN, Epoch: 1/10, Batch: 750/938, Loss: 0.61174
+Model: RNN, Epoch: 1/10, Batch: 800/938, Loss: 0.51564
+Model: RNN, Epoch: 1/10, Batch: 850/938, Loss: 0.30144
+Model: RNN, Epoch: 1/10, Batch: 900/938, Loss: 0.36682
+------------------------------------------------------
+Model: RNN, Epoch: 1/10, Correct Predictions: 8810/10000, Accuracy: 88.1 %
+------------------------------------------------------
+Model: RNN, Epoch: 2/10, Batch: 50/938, Loss: 0.28271
+Model: RNN, Epoch: 2/10, Batch: 100/938, Loss: 0.43625
+Model: RNN, Epoch: 2/10, Batch: 150/938, Loss: 0.41943
+Model: RNN, Epoch: 2/10, Batch: 200/938, Loss: 0.34583
+Model: RNN, Epoch: 2/10, Batch: 250/938, Loss: 0.51133
+Model: RNN, Epoch: 2/10, Batch: 300/938, Loss: 0.46024
+Model: RNN, Epoch: 2/10, Batch: 350/938, Loss: 0.19859
+Model: RNN, Epoch: 2/10, Batch: 400/938, Loss: 0.36366
+Model: RNN, Epoch: 2/10, Batch: 450/938, Loss: 0.31904
+Model: RNN, Epoch: 2/10, Batch: 500/938, Loss: 0.91407
+Model: RNN, Epoch: 2/10, Batch: 550/938, Loss: 0.30761
+Model: RNN, Epoch: 2/10, Batch: 600/938, Loss: 0.42282
+Model: RNN, Epoch: 2/10, Batch: 650/938, Loss: 0.30421
+Model: RNN, Epoch: 2/10, Batch: 700/938, Loss: 0.35894
+Model: RNN, Epoch: 2/10, Batch: 750/938, Loss: 0.44096
+Model: RNN, Epoch: 2/10, Batch: 800/938, Loss: 0.44589
+Model: RNN, Epoch: 2/10, Batch: 850/938, Loss: 0.31435
+Model: RNN, Epoch: 2/10, Batch: 900/938, Loss: 0.24106
+------------------------------------------------------
+Model: RNN, Epoch: 2/10, Correct Predictions: 9118/10000, Accuracy: 91.18 %
+------------------------------------------------------
+Model: RNN, Epoch: 3/10, Batch: 50/938, Loss: 0.27601
+Model: RNN, Epoch: 3/10, Batch: 100/938, Loss: 0.09662
+Model: RNN, Epoch: 3/10, Batch: 150/938, Loss: 0.36456
+Model: RNN, Epoch: 3/10, Batch: 200/938, Loss: 0.21534
+Model: RNN, Epoch: 3/10, Batch: 250/938, Loss: 0.53461
+Model: RNN, Epoch: 3/10, Batch: 300/938, Loss: 0.34366
+Model: RNN, Epoch: 3/10, Batch: 350/938, Loss: 0.05302
+Model: RNN, Epoch: 3/10, Batch: 400/938, Loss: 0.41874
+Model: RNN, Epoch: 3/10, Batch: 450/938, Loss: 0.19170
+Model: RNN, Epoch: 3/10, Batch: 500/938, Loss: 0.43609
+Model: RNN, Epoch: 3/10, Batch: 550/938, Loss: 0.25047
+Model: RNN, Epoch: 3/10, Batch: 600/938, Loss: 0.25840
+Model: RNN, Epoch: 3/10, Batch: 650/938, Loss: 0.21899
+Model: RNN, Epoch: 3/10, Batch: 700/938, Loss: 0.28686
+Model: RNN, Epoch: 3/10, Batch: 750/938, Loss: 0.35424
+Model: RNN, Epoch: 3/10, Batch: 800/938, Loss: 0.37117
+Model: RNN, Epoch: 3/10, Batch: 850/938, Loss: 0.17617
+Model: RNN, Epoch: 3/10, Batch: 900/938, Loss: 0.19400
+------------------------------------------------------
+Model: RNN, Epoch: 3/10, Correct Predictions: 9198/10000, Accuracy: 91.98 %
+------------------------------------------------------
+Model: RNN, Epoch: 4/10, Batch: 50/938, Loss: 0.25374
+Model: RNN, Epoch: 4/10, Batch: 100/938, Loss: 0.18754
+Model: RNN, Epoch: 4/10, Batch: 150/938, Loss: 0.22211
+Model: RNN, Epoch: 4/10, Batch: 200/938, Loss: 0.18650
+Model: RNN, Epoch: 4/10, Batch: 250/938, Loss: 0.61720
+Model: RNN, Epoch: 4/10, Batch: 300/938, Loss: 0.33968
+Model: RNN, Epoch: 4/10, Batch: 350/938, Loss: 0.10668
+Model: RNN, Epoch: 4/10, Batch: 400/938, Loss: 0.48084
+Model: RNN, Epoch: 4/10, Batch: 450/938, Loss: 0.31503
+Model: RNN, Epoch: 4/10, Batch: 500/938, Loss: 0.39272
+Model: RNN, Epoch: 4/10, Batch: 550/938, Loss: 0.15255
+Model: RNN, Epoch: 4/10, Batch: 600/938, Loss: 0.44615
+Model: RNN, Epoch: 4/10, Batch: 650/938, Loss: 0.34276
+Model: RNN, Epoch: 4/10, Batch: 700/938, Loss: 0.23091
+Model: RNN, Epoch: 4/10, Batch: 750/938, Loss: 0.26920
+Model: RNN, Epoch: 4/10, Batch: 800/938, Loss: 0.48215
+Model: RNN, Epoch: 4/10, Batch: 850/938, Loss: 0.27895
+Model: RNN, Epoch: 4/10, Batch: 900/938, Loss: 0.26401
+------------------------------------------------------
+Model: RNN, Epoch: 4/10, Correct Predictions: 9305/10000, Accuracy: 93.05 %
+------------------------------------------------------
+Model: RNN, Epoch: 5/10, Batch: 50/938, Loss: 0.07187
+Model: RNN, Epoch: 5/10, Batch: 100/938, Loss: 0.14979
+Model: RNN, Epoch: 5/10, Batch: 150/938, Loss: 0.26092
+Model: RNN, Epoch: 5/10, Batch: 200/938, Loss: 0.18826
+Model: RNN, Epoch: 5/10, Batch: 250/938, Loss: 0.39179
+Model: RNN, Epoch: 5/10, Batch: 300/938, Loss: 0.24755
+Model: RNN, Epoch: 5/10, Batch: 350/938, Loss: 0.06564
+Model: RNN, Epoch: 5/10, Batch: 400/938, Loss: 0.36225
+Model: RNN, Epoch: 5/10, Batch: 450/938, Loss: 0.24923
+Model: RNN, Epoch: 5/10, Batch: 500/938, Loss: 0.55745
+Model: RNN, Epoch: 5/10, Batch: 550/938, Loss: 0.26350
+Model: RNN, Epoch: 5/10, Batch: 600/938, Loss: 0.42473
+Model: RNN, Epoch: 5/10, Batch: 650/938, Loss: 0.32660
+Model: RNN, Epoch: 5/10, Batch: 700/938, Loss: 0.15861
+Model: RNN, Epoch: 5/10, Batch: 750/938, Loss: 0.27301
+Model: RNN, Epoch: 5/10, Batch: 800/938, Loss: 0.22423
+Model: RNN, Epoch: 5/10, Batch: 850/938, Loss: 0.18022
+Model: RNN, Epoch: 5/10, Batch: 900/938, Loss: 0.23157
+------------------------------------------------------
+Model: RNN, Epoch: 5/10, Correct Predictions: 9385/10000, Accuracy: 93.85 %
+------------------------------------------------------
+Model: RNN, Epoch: 6/10, Batch: 50/938, Loss: 0.08179
+Model: RNN, Epoch: 6/10, Batch: 100/938, Loss: 0.17722
+Model: RNN, Epoch: 6/10, Batch: 150/938, Loss: 0.27287
+Model: RNN, Epoch: 6/10, Batch: 200/938, Loss: 0.09353
+Model: RNN, Epoch: 6/10, Batch: 250/938, Loss: 0.70573
+Model: RNN, Epoch: 6/10, Batch: 300/938, Loss: 0.25522
+Model: RNN, Epoch: 6/10, Batch: 350/938, Loss: 0.05900
+Model: RNN, Epoch: 6/10, Batch: 400/938, Loss: 0.34358
+Model: RNN, Epoch: 6/10, Batch: 450/938, Loss: 0.20440
+Model: RNN, Epoch: 6/10, Batch: 500/938, Loss: 0.27132
+Model: RNN, Epoch: 6/10, Batch: 550/938, Loss: 0.09135
+Model: RNN, Epoch: 6/10, Batch: 600/938, Loss: 0.27644
+Model: RNN, Epoch: 6/10, Batch: 650/938, Loss: 0.25705
+Model: RNN, Epoch: 6/10, Batch: 700/938, Loss: 0.14446
+Model: RNN, Epoch: 6/10, Batch: 750/938, Loss: 0.48242
+Model: RNN, Epoch: 6/10, Batch: 800/938, Loss: 0.34629
+Model: RNN, Epoch: 6/10, Batch: 850/938, Loss: 0.16664
+Model: RNN, Epoch: 6/10, Batch: 900/938, Loss: 0.23163
+------------------------------------------------------
+Model: RNN, Epoch: 6/10, Correct Predictions: 9051/10000, Accuracy: 90.51 %
+------------------------------------------------------
+Model: RNN, Epoch: 7/10, Batch: 50/938, Loss: 0.14892
+Model: RNN, Epoch: 7/10, Batch: 100/938, Loss: 0.23235
+Model: RNN, Epoch: 7/10, Batch: 150/938, Loss: 0.44959
+Model: RNN, Epoch: 7/10, Batch: 200/938, Loss: 0.22902
+Model: RNN, Epoch: 7/10, Batch: 250/938, Loss: 0.70681
+Model: RNN, Epoch: 7/10, Batch: 300/938, Loss: 0.27135
+Model: RNN, Epoch: 7/10, Batch: 350/938, Loss: 0.06504
+Model: RNN, Epoch: 7/10, Batch: 400/938, Loss: 0.34405
+Model: RNN, Epoch: 7/10, Batch: 450/938, Loss: 0.23077
+Model: RNN, Epoch: 7/10, Batch: 500/938, Loss: 0.36189
+Model: RNN, Epoch: 7/10, Batch: 550/938, Loss: 0.14685
+Model: RNN, Epoch: 7/10, Batch: 600/938, Loss: 0.23516
+Model: RNN, Epoch: 7/10, Batch: 650/938, Loss: 0.22496
+Model: RNN, Epoch: 7/10, Batch: 700/938, Loss: 0.14670
+Model: RNN, Epoch: 7/10, Batch: 750/938, Loss: 0.38665
+Model: RNN, Epoch: 7/10, Batch: 800/938, Loss: 0.45526
+Model: RNN, Epoch: 7/10, Batch: 850/938, Loss: 0.22190
+Model: RNN, Epoch: 7/10, Batch: 900/938, Loss: 0.10323
+------------------------------------------------------
+Model: RNN, Epoch: 7/10, Correct Predictions: 9319/10000, Accuracy: 93.19 %
+------------------------------------------------------
+Model: RNN, Epoch: 8/10, Batch: 50/938, Loss: 0.05110
+Model: RNN, Epoch: 8/10, Batch: 100/938, Loss: 0.22295
+Model: RNN, Epoch: 8/10, Batch: 150/938, Loss: 0.26212
+Model: RNN, Epoch: 8/10, Batch: 200/938, Loss: 0.20537
+Model: RNN, Epoch: 8/10, Batch: 250/938, Loss: 0.46997
+Model: RNN, Epoch: 8/10, Batch: 300/938, Loss: 0.47586
+Model: RNN, Epoch: 8/10, Batch: 350/938, Loss: 0.12310
+Model: RNN, Epoch: 8/10, Batch: 400/938, Loss: 0.35059
+Model: RNN, Epoch: 8/10, Batch: 450/938, Loss: 0.30049
+Model: RNN, Epoch: 8/10, Batch: 500/938, Loss: 0.19675
+Model: RNN, Epoch: 8/10, Batch: 550/938, Loss: 0.11862
+Model: RNN, Epoch: 8/10, Batch: 600/938, Loss: 0.33313
+Model: RNN, Epoch: 8/10, Batch: 650/938, Loss: 0.24947
+Model: RNN, Epoch: 8/10, Batch: 700/938, Loss: 0.08600
+Model: RNN, Epoch: 8/10, Batch: 750/938, Loss: 0.31801
+Model: RNN, Epoch: 8/10, Batch: 800/938, Loss: 0.31945
+Model: RNN, Epoch: 8/10, Batch: 850/938, Loss: 0.20589
+Model: RNN, Epoch: 8/10, Batch: 900/938, Loss: 0.22153
+------------------------------------------------------
+Model: RNN, Epoch: 8/10, Correct Predictions: 9121/10000, Accuracy: 91.21 %
+------------------------------------------------------
+Model: RNN, Epoch: 9/10, Batch: 50/938, Loss: 0.09827
+Model: RNN, Epoch: 9/10, Batch: 100/938, Loss: 0.30627
+Model: RNN, Epoch: 9/10, Batch: 150/938, Loss: 0.38784
+Model: RNN, Epoch: 9/10, Batch: 200/938, Loss: 0.28422
+Model: RNN, Epoch: 9/10, Batch: 250/938, Loss: 0.33262
+Model: RNN, Epoch: 9/10, Batch: 300/938, Loss: 0.27220
+Model: RNN, Epoch: 9/10, Batch: 350/938, Loss: 0.15703
+Model: RNN, Epoch: 9/10, Batch: 400/938, Loss: 0.38145
+Model: RNN, Epoch: 9/10, Batch: 450/938, Loss: 0.13619
+Model: RNN, Epoch: 9/10, Batch: 500/938, Loss: 0.15134
+Model: RNN, Epoch: 9/10, Batch: 550/938, Loss: 0.40637
+Model: RNN, Epoch: 9/10, Batch: 600/938, Loss: 0.55456
+Model: RNN, Epoch: 9/10, Batch: 650/938, Loss: 0.25147
+Model: RNN, Epoch: 9/10, Batch: 700/938, Loss: 0.15537
+Model: RNN, Epoch: 9/10, Batch: 750/938, Loss: 0.22919
+Model: RNN, Epoch: 9/10, Batch: 800/938, Loss: 0.27711
+Model: RNN, Epoch: 9/10, Batch: 850/938, Loss: 0.26651
+Model: RNN, Epoch: 9/10, Batch: 900/938, Loss: 0.38721
+------------------------------------------------------
+Model: RNN, Epoch: 9/10, Correct Predictions: 9307/10000, Accuracy: 93.07 %
+------------------------------------------------------
+Model: RNN, Epoch: 10/10, Batch: 50/938, Loss: 0.12324
+Model: RNN, Epoch: 10/10, Batch: 100/938, Loss: 0.16005
+Model: RNN, Epoch: 10/10, Batch: 150/938, Loss: 0.36443
+Model: RNN, Epoch: 10/10, Batch: 200/938, Loss: 0.14549
+Model: RNN, Epoch: 10/10, Batch: 250/938, Loss: 0.49105
+Model: RNN, Epoch: 10/10, Batch: 300/938, Loss: 0.39346
+Model: RNN, Epoch: 10/10, Batch: 350/938, Loss: 0.09121
+Model: RNN, Epoch: 10/10, Batch: 400/938, Loss: 0.31863
+Model: RNN, Epoch: 10/10, Batch: 450/938, Loss: 0.39714
+Model: RNN, Epoch: 10/10, Batch: 500/938, Loss: 0.27724
+Model: RNN, Epoch: 10/10, Batch: 550/938, Loss: 0.12436
+Model: RNN, Epoch: 10/10, Batch: 600/938, Loss: 0.44601
+Model: RNN, Epoch: 10/10, Batch: 650/938, Loss: 0.22607
+Model: RNN, Epoch: 10/10, Batch: 700/938, Loss: 0.17832
+Model: RNN, Epoch: 10/10, Batch: 750/938, Loss: 0.39846
+Model: RNN, Epoch: 10/10, Batch: 800/938, Loss: 0.26428
+Model: RNN, Epoch: 10/10, Batch: 850/938, Loss: 0.24365
+Model: RNN, Epoch: 10/10, Batch: 900/938, Loss: 0.16720
+------------------------------------------------------
+Model: RNN, Epoch: 10/10, Correct Predictions: 9172/10000, Accuracy: 91.72 %
+------------------------------------------------------
+
+Process finished with exit code 0
