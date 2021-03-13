@@ -1,0 +1,272 @@
+Model: TCN, Epoch: 1/10, Batch: 50/312, Loss: 2.24169
+Model: TCN, Epoch: 1/10, Batch: 100/312, Loss: 1.59167
+Model: TCN, Epoch: 1/10, Batch: 150/312, Loss: 0.75199
+Model: TCN, Epoch: 1/10, Batch: 200/312, Loss: 0.29005
+Model: TCN, Epoch: 1/10, Batch: 250/312, Loss: 0.12320
+Model: TCN, Epoch: 1/10, Batch: 300/312, Loss: 0.07883
+------------------------------------------------------
+Model: TCN, Epoch: 1/10, Loss: 0.07343
+------------------------------------------------------
+Model: TCN, Epoch: 2/10, Batch: 50/312, Loss: 0.05721
+Model: TCN, Epoch: 2/10, Batch: 100/312, Loss: 0.04920
+Model: TCN, Epoch: 2/10, Batch: 150/312, Loss: 0.04374
+Model: TCN, Epoch: 2/10, Batch: 200/312, Loss: 0.03883
+Model: TCN, Epoch: 2/10, Batch: 250/312, Loss: 0.03650
+Model: TCN, Epoch: 2/10, Batch: 300/312, Loss: 0.03404
+------------------------------------------------------
+Model: TCN, Epoch: 2/10, Loss: 0.03412
+------------------------------------------------------
+Model: TCN, Epoch: 3/10, Batch: 50/312, Loss: 0.03184
+Model: TCN, Epoch: 3/10, Batch: 100/312, Loss: 0.03074
+Model: TCN, Epoch: 3/10, Batch: 150/312, Loss: 0.02969
+Model: TCN, Epoch: 3/10, Batch: 200/312, Loss: 0.02766
+Model: TCN, Epoch: 3/10, Batch: 250/312, Loss: 0.02708
+Model: TCN, Epoch: 3/10, Batch: 300/312, Loss: 0.02618
+------------------------------------------------------
+Model: TCN, Epoch: 3/10, Loss: 0.02614
+------------------------------------------------------
+Model: TCN, Epoch: 4/10, Batch: 50/312, Loss: 0.02534
+Model: TCN, Epoch: 4/10, Batch: 100/312, Loss: 0.02498
+Model: TCN, Epoch: 4/10, Batch: 150/312, Loss: 0.02501
+Model: TCN, Epoch: 4/10, Batch: 200/312, Loss: 0.02390
+Model: TCN, Epoch: 4/10, Batch: 250/312, Loss: 0.02364
+Model: TCN, Epoch: 4/10, Batch: 300/312, Loss: 0.02325
+------------------------------------------------------
+Model: TCN, Epoch: 4/10, Loss: 0.02322
+------------------------------------------------------
+Model: TCN, Epoch: 5/10, Batch: 50/312, Loss: 0.02277
+Model: TCN, Epoch: 5/10, Batch: 100/312, Loss: 0.02256
+Model: TCN, Epoch: 5/10, Batch: 150/312, Loss: 0.02257
+Model: TCN, Epoch: 5/10, Batch: 200/312, Loss: 0.02196
+Model: TCN, Epoch: 5/10, Batch: 250/312, Loss: 0.02186
+Model: TCN, Epoch: 5/10, Batch: 300/312, Loss: 0.02183
+------------------------------------------------------
+Model: TCN, Epoch: 5/10, Loss: 0.02173
+------------------------------------------------------
+Model: TCN, Epoch: 6/10, Batch: 50/312, Loss: 0.02172
+Model: TCN, Epoch: 6/10, Batch: 100/312, Loss: 0.02156
+Model: TCN, Epoch: 6/10, Batch: 150/312, Loss: 0.02159
+Model: TCN, Epoch: 6/10, Batch: 200/312, Loss: 0.02126
+Model: TCN, Epoch: 6/10, Batch: 250/312, Loss: 0.02123
+Model: TCN, Epoch: 6/10, Batch: 300/312, Loss: 0.02127
+------------------------------------------------------
+Model: TCN, Epoch: 6/10, Loss: 0.02119
+------------------------------------------------------
+Model: TCN, Epoch: 7/10, Batch: 50/312, Loss: 0.02126
+Model: TCN, Epoch: 7/10, Batch: 100/312, Loss: 0.02109
+Model: TCN, Epoch: 7/10, Batch: 150/312, Loss: 0.02113
+Model: TCN, Epoch: 7/10, Batch: 200/312, Loss: 0.02094
+Model: TCN, Epoch: 7/10, Batch: 250/312, Loss: 0.02093
+Model: TCN, Epoch: 7/10, Batch: 300/312, Loss: 0.02095
+------------------------------------------------------
+Model: TCN, Epoch: 7/10, Loss: 0.02092
+------------------------------------------------------
+Model: TCN, Epoch: 8/10, Batch: 50/312, Loss: 0.02102
+Model: TCN, Epoch: 8/10, Batch: 100/312, Loss: 0.02085
+Model: TCN, Epoch: 8/10, Batch: 150/312, Loss: 0.02089
+Model: TCN, Epoch: 8/10, Batch: 200/312, Loss: 0.02075
+Model: TCN, Epoch: 8/10, Batch: 250/312, Loss: 0.02075
+Model: TCN, Epoch: 8/10, Batch: 300/312, Loss: 0.02077
+------------------------------------------------------
+Model: TCN, Epoch: 8/10, Loss: 0.02077
+------------------------------------------------------
+Model: TCN, Epoch: 9/10, Batch: 50/312, Loss: 0.02085
+Model: TCN, Epoch: 9/10, Batch: 100/312, Loss: 0.02071
+Model: TCN, Epoch: 9/10, Batch: 150/312, Loss: 0.02074
+Model: TCN, Epoch: 9/10, Batch: 200/312, Loss: 0.02066
+Model: TCN, Epoch: 9/10, Batch: 250/312, Loss: 0.02067
+Model: TCN, Epoch: 9/10, Batch: 300/312, Loss: 0.02066
+------------------------------------------------------
+Model: TCN, Epoch: 9/10, Loss: 0.02067
+------------------------------------------------------
+Model: TCN, Epoch: 10/10, Batch: 50/312, Loss: 0.02074
+Model: TCN, Epoch: 10/10, Batch: 100/312, Loss: 0.02062
+Model: TCN, Epoch: 10/10, Batch: 150/312, Loss: 0.02065
+Model: TCN, Epoch: 10/10, Batch: 200/312, Loss: 0.02059
+Model: TCN, Epoch: 10/10, Batch: 250/312, Loss: 0.02061
+Model: TCN, Epoch: 10/10, Batch: 300/312, Loss: 0.02060
+------------------------------------------------------
+Model: TCN, Epoch: 10/10, Loss: 0.02060
+------------------------------------------------------
+Model: LSTM, Epoch: 1/10, Batch: 50/312, Loss: 1.96445
+Model: LSTM, Epoch: 1/10, Batch: 100/312, Loss: 1.57232
+Model: LSTM, Epoch: 1/10, Batch: 150/312, Loss: 0.87470
+Model: LSTM, Epoch: 1/10, Batch: 200/312, Loss: 0.51373
+Model: LSTM, Epoch: 1/10, Batch: 250/312, Loss: 0.34017
+Model: LSTM, Epoch: 1/10, Batch: 300/312, Loss: 0.24741
+------------------------------------------------------
+Model: LSTM, Epoch: 1/10, Loss: 0.23202
+------------------------------------------------------
+Model: LSTM, Epoch: 2/10, Batch: 50/312, Loss: 0.18249
+Model: LSTM, Epoch: 2/10, Batch: 100/312, Loss: 0.15015
+Model: LSTM, Epoch: 2/10, Batch: 150/312, Loss: 0.12722
+Model: LSTM, Epoch: 2/10, Batch: 200/312, Loss: 0.11081
+Model: LSTM, Epoch: 2/10, Batch: 250/312, Loss: 0.09851
+Model: LSTM, Epoch: 2/10, Batch: 300/312, Loss: 0.08877
+------------------------------------------------------
+Model: LSTM, Epoch: 2/10, Loss: 0.08627
+------------------------------------------------------
+Model: LSTM, Epoch: 3/10, Batch: 50/312, Loss: 0.07911
+Model: LSTM, Epoch: 3/10, Batch: 100/312, Loss: 0.07325
+Model: LSTM, Epoch: 3/10, Batch: 150/312, Loss: 0.06786
+Model: LSTM, Epoch: 3/10, Batch: 200/312, Loss: 0.06338
+Model: LSTM, Epoch: 3/10, Batch: 250/312, Loss: 0.06004
+Model: LSTM, Epoch: 3/10, Batch: 300/312, Loss: 0.05675
+------------------------------------------------------
+Model: LSTM, Epoch: 3/10, Loss: 0.05638
+------------------------------------------------------
+Model: LSTM, Epoch: 4/10, Batch: 50/312, Loss: 0.05303
+Model: LSTM, Epoch: 4/10, Batch: 100/312, Loss: 0.05109
+Model: LSTM, Epoch: 4/10, Batch: 150/312, Loss: 0.04892
+Model: LSTM, Epoch: 4/10, Batch: 200/312, Loss: 0.04700
+Model: LSTM, Epoch: 4/10, Batch: 250/312, Loss: 0.04588
+Model: LSTM, Epoch: 4/10, Batch: 300/312, Loss: 0.04450
+------------------------------------------------------
+Model: LSTM, Epoch: 4/10, Loss: 0.04398
+------------------------------------------------------
+Model: LSTM, Epoch: 5/10, Batch: 50/312, Loss: 0.04279
+Model: LSTM, Epoch: 5/10, Batch: 100/312, Loss: 0.04203
+Model: LSTM, Epoch: 5/10, Batch: 150/312, Loss: 0.04095
+Model: LSTM, Epoch: 5/10, Batch: 200/312, Loss: 0.03983
+Model: LSTM, Epoch: 5/10, Batch: 250/312, Loss: 0.03944
+Model: LSTM, Epoch: 5/10, Batch: 300/312, Loss: 0.03865
+------------------------------------------------------
+Model: LSTM, Epoch: 5/10, Loss: 0.03838
+------------------------------------------------------
+Model: LSTM, Epoch: 6/10, Batch: 50/312, Loss: 0.03760
+Model: LSTM, Epoch: 6/10, Batch: 100/312, Loss: 0.03720
+Model: LSTM, Epoch: 6/10, Batch: 150/312, Loss: 0.03655
+Model: LSTM, Epoch: 6/10, Batch: 200/312, Loss: 0.03572
+Model: LSTM, Epoch: 6/10, Batch: 250/312, Loss: 0.03559
+Model: LSTM, Epoch: 6/10, Batch: 300/312, Loss: 0.03507
+------------------------------------------------------
+Model: LSTM, Epoch: 6/10, Loss: 0.03522
+------------------------------------------------------
+Model: LSTM, Epoch: 7/10, Batch: 50/312, Loss: 0.03431
+Model: LSTM, Epoch: 7/10, Batch: 100/312, Loss: 0.03407
+Model: LSTM, Epoch: 7/10, Batch: 150/312, Loss: 0.03367
+Model: LSTM, Epoch: 7/10, Batch: 200/312, Loss: 0.03301
+Model: LSTM, Epoch: 7/10, Batch: 250/312, Loss: 0.03306
+Model: LSTM, Epoch: 7/10, Batch: 300/312, Loss: 0.03270
+------------------------------------------------------
+Model: LSTM, Epoch: 7/10, Loss: 0.03284
+------------------------------------------------------
+Model: LSTM, Epoch: 8/10, Batch: 50/312, Loss: 0.03215
+Model: LSTM, Epoch: 8/10, Batch: 100/312, Loss: 0.03200
+Model: LSTM, Epoch: 8/10, Batch: 150/312, Loss: 0.03178
+Model: LSTM, Epoch: 8/10, Batch: 200/312, Loss: 0.03122
+Model: LSTM, Epoch: 8/10, Batch: 250/312, Loss: 0.03134
+Model: LSTM, Epoch: 8/10, Batch: 300/312, Loss: 0.03108
+------------------------------------------------------
+Model: LSTM, Epoch: 8/10, Loss: 0.03081
+------------------------------------------------------
+Model: LSTM, Epoch: 9/10, Batch: 50/312, Loss: 0.03065
+Model: LSTM, Epoch: 9/10, Batch: 100/312, Loss: 0.03053
+Model: LSTM, Epoch: 9/10, Batch: 150/312, Loss: 0.03042
+Model: LSTM, Epoch: 9/10, Batch: 200/312, Loss: 0.02990
+Model: LSTM, Epoch: 9/10, Batch: 250/312, Loss: 0.03009
+Model: LSTM, Epoch: 9/10, Batch: 300/312, Loss: 0.02988
+------------------------------------------------------
+Model: LSTM, Epoch: 9/10, Loss: 0.03008
+------------------------------------------------------
+Model: LSTM, Epoch: 10/10, Batch: 50/312, Loss: 0.02950
+Model: LSTM, Epoch: 10/10, Batch: 100/312, Loss: 0.02943
+Model: LSTM, Epoch: 10/10, Batch: 150/312, Loss: 0.02934
+Model: LSTM, Epoch: 10/10, Batch: 200/312, Loss: 0.02888
+Model: LSTM, Epoch: 10/10, Batch: 250/312, Loss: 0.02909
+Model: LSTM, Epoch: 10/10, Batch: 300/312, Loss: 0.02890
+------------------------------------------------------
+Model: LSTM, Epoch: 10/10, Loss: 0.02868
+------------------------------------------------------
+Model: RNN, Epoch: 1/10, Batch: 50/312, Loss: 1.86803
+Model: RNN, Epoch: 1/10, Batch: 100/312, Loss: 1.46877
+Model: RNN, Epoch: 1/10, Batch: 150/312, Loss: 0.96470
+Model: RNN, Epoch: 1/10, Batch: 200/312, Loss: 0.63402
+Model: RNN, Epoch: 1/10, Batch: 250/312, Loss: 0.44459
+Model: RNN, Epoch: 1/10, Batch: 300/312, Loss: 0.33087
+------------------------------------------------------
+Model: RNN, Epoch: 1/10, Loss: 0.30806
+------------------------------------------------------
+Model: RNN, Epoch: 2/10, Batch: 50/312, Loss: 0.24536
+Model: RNN, Epoch: 2/10, Batch: 100/312, Loss: 0.20079
+Model: RNN, Epoch: 2/10, Batch: 150/312, Loss: 0.16950
+Model: RNN, Epoch: 2/10, Batch: 200/312, Loss: 0.14603
+Model: RNN, Epoch: 2/10, Batch: 250/312, Loss: 0.12846
+Model: RNN, Epoch: 2/10, Batch: 300/312, Loss: 0.11476
+------------------------------------------------------
+Model: RNN, Epoch: 2/10, Loss: 0.11299
+------------------------------------------------------
+Model: RNN, Epoch: 3/10, Batch: 50/312, Loss: 0.10191
+Model: RNN, Epoch: 3/10, Batch: 100/312, Loss: 0.09339
+Model: RNN, Epoch: 3/10, Batch: 150/312, Loss: 0.08669
+Model: RNN, Epoch: 3/10, Batch: 200/312, Loss: 0.08066
+Model: RNN, Epoch: 3/10, Batch: 250/312, Loss: 0.07578
+Model: RNN, Epoch: 3/10, Batch: 300/312, Loss: 0.07161
+------------------------------------------------------
+Model: RNN, Epoch: 3/10, Loss: 0.06992
+------------------------------------------------------
+Model: RNN, Epoch: 4/10, Batch: 50/312, Loss: 0.06749
+Model: RNN, Epoch: 4/10, Batch: 100/312, Loss: 0.06427
+Model: RNN, Epoch: 4/10, Batch: 150/312, Loss: 0.06186
+Model: RNN, Epoch: 4/10, Batch: 200/312, Loss: 0.05929
+Model: RNN, Epoch: 4/10, Batch: 250/312, Loss: 0.05719
+Model: RNN, Epoch: 4/10, Batch: 300/312, Loss: 0.05533
+------------------------------------------------------
+Model: RNN, Epoch: 4/10, Loss: 0.05465
+------------------------------------------------------
+Model: RNN, Epoch: 5/10, Batch: 50/312, Loss: 0.05355
+Model: RNN, Epoch: 5/10, Batch: 100/312, Loss: 0.05189
+Model: RNN, Epoch: 5/10, Batch: 150/312, Loss: 0.05079
+Model: RNN, Epoch: 5/10, Batch: 200/312, Loss: 0.04930
+Model: RNN, Epoch: 5/10, Batch: 250/312, Loss: 0.04823
+Model: RNN, Epoch: 5/10, Batch: 300/312, Loss: 0.04719
+------------------------------------------------------
+Model: RNN, Epoch: 5/10, Loss: 0.04697
+------------------------------------------------------
+Model: RNN, Epoch: 6/10, Batch: 50/312, Loss: 0.04625
+Model: RNN, Epoch: 6/10, Batch: 100/312, Loss: 0.04524
+Model: RNN, Epoch: 6/10, Batch: 150/312, Loss: 0.04464
+Model: RNN, Epoch: 6/10, Batch: 200/312, Loss: 0.04366
+Model: RNN, Epoch: 6/10, Batch: 250/312, Loss: 0.04301
+Model: RNN, Epoch: 6/10, Batch: 300/312, Loss: 0.04233
+------------------------------------------------------
+Model: RNN, Epoch: 6/10, Loss: 0.04199
+------------------------------------------------------
+Model: RNN, Epoch: 7/10, Batch: 50/312, Loss: 0.04177
+Model: RNN, Epoch: 7/10, Batch: 100/312, Loss: 0.04104
+Model: RNN, Epoch: 7/10, Batch: 150/312, Loss: 0.04070
+Model: RNN, Epoch: 7/10, Batch: 200/312, Loss: 0.03996
+Model: RNN, Epoch: 7/10, Batch: 250/312, Loss: 0.03956
+Model: RNN, Epoch: 7/10, Batch: 300/312, Loss: 0.03907
+------------------------------------------------------
+Model: RNN, Epoch: 7/10, Loss: 0.03896
+------------------------------------------------------
+Model: RNN, Epoch: 8/10, Batch: 50/312, Loss: 0.03866
+Model: RNN, Epoch: 8/10, Batch: 100/312, Loss: 0.03811
+Model: RNN, Epoch: 8/10, Batch: 150/312, Loss: 0.03790
+Model: RNN, Epoch: 8/10, Batch: 200/312, Loss: 0.03726
+Model: RNN, Epoch: 8/10, Batch: 250/312, Loss: 0.03701
+Model: RNN, Epoch: 8/10, Batch: 300/312, Loss: 0.03661
+------------------------------------------------------
+Model: RNN, Epoch: 8/10, Loss: 0.03688
+------------------------------------------------------
+Model: RNN, Epoch: 9/10, Batch: 50/312, Loss: 0.03628
+Model: RNN, Epoch: 9/10, Batch: 100/312, Loss: 0.03586
+Model: RNN, Epoch: 9/10, Batch: 150/312, Loss: 0.03571
+Model: RNN, Epoch: 9/10, Batch: 200/312, Loss: 0.03513
+Model: RNN, Epoch: 9/10, Batch: 250/312, Loss: 0.03499
+Model: RNN, Epoch: 9/10, Batch: 300/312, Loss: 0.03465
+------------------------------------------------------
+Model: RNN, Epoch: 9/10, Loss: 0.03458
+------------------------------------------------------
+Model: RNN, Epoch: 10/10, Batch: 50/312, Loss: 0.03434
+Model: RNN, Epoch: 10/10, Batch: 100/312, Loss: 0.03399
+Model: RNN, Epoch: 10/10, Batch: 150/312, Loss: 0.03388
+Model: RNN, Epoch: 10/10, Batch: 200/312, Loss: 0.03335
+Model: RNN, Epoch: 10/10, Batch: 250/312, Loss: 0.03327
+Model: RNN, Epoch: 10/10, Batch: 300/312, Loss: 0.03299
+------------------------------------------------------
+Model: RNN, Epoch: 10/10, Loss: 0.03262
+------------------------------------------------------
+
+Process finished with exit code 0
