@@ -1,0 +1,339 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/html40/loose.dtd">
+<!-- saved from url=(0059)https://www.cs.bgu.ac.il/~caspl202/Assignments/Assignment_2 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="author" content="doronv">
+    <meta name="keywords" content="assignment 2">
+    <meta name="description" content="Computer Architecture and system programming laboratory - 2020/Spring">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+    <link rel="stylesheet" type="text/css" href="./Assignment 2_files/global.css">
+    <link rel="stylesheet" type="text/css" href="./Assignment 2_files/structure.css">
+    <link rel="stylesheet" type="text/css" href="./Assignment 2_files/print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="./Assignment 2_files/main.css">
+    <link rel="shortcut icon" href="https://www.cs.bgu.ac.il/~lab/course.wiki/images/flavicon.gif">
+    <link rel="search" type="application/opensearchdescription+xml" title="Computer Architecture and system programming laboratory - 2020/Spring" href="http://www.cs.bgu.ac.il/~caspl202/Search?action=opensearch.xml">
+        <title>Computer Architecture and system programming laboratory - 2020/Spring - Assignments / Assignment 2</title>
+
+<!-- Accessibility - cs.bgu.ac.il. Added by Liat Dukhan 20_8_2018 for Nagish Be Click-->
+<script data-cfasync="false"> 
+	window.interdeal = {
+		sitekey   : "b5bc2828e81e37d108096d991ba61619",
+		Position  : "Left",
+		Menulang  : "EN",
+	}
+</script>
+<script src="./Assignment 2_files/accessibility.js.download" async="" data-cfasync="false"></script>
+
+<script type="text/javascript" src="./Assignment 2_files/jquery.js.download"></script> 
+<script type="text/javascript" src="./Assignment 2_files/jquery.cswiki.js.download"></script> 
+<script type="text/javascript">
+function win(u,n,w,h){
+  if(n == '') n='Small_Window_'+Math.ceil((Math.random()*100000));
+  window.open(u,n,'width='+w+',height='+h+',status=yes,resizable=yes,scrollbars=yes');
+}
+
+function ajax_request(action,params,cont,type){
+  if(!type) type = 'json';
+  $.ajaxSetup({ async:true,
+                error: function (XMLHttpRequest, textStatus, errorThrown) { alert(textStatus);}});
+  params.action = action;
+  params.format = 'ajax';
+  $.post('/~caspl202/index.php', params , cont, type);
+}
+
+// JQuery things
+$(document).ready(function(){
+  $.ImagesBase = "/~lab/course.wiki/images/";
+  $('div.code,pre.code[filename!=]').code({ base: "/~caspl202/index.php" , imagesBase: $.ImagesBase});
+  $('ul.collapsible').collapsible();
+});
+</script> 
+<script type="text/javascript" src="./Assignment 2_files/MathJax.js.download">
+</script>
+<script type="text/javascript">
+MathJax.Hub.Config({
+    extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+    tex2jax:
+    {
+        inlineMath: [["$","$"], ["\\(","\\)"]],
+        ignoreClass: ".*",
+        processClass: "__mathjax"
+    },
+    "HTML-CSS": { webFont: null }
+  });
+</script> 
+  <style>.INDMobile.INDbtn-draging{overflow:hidden}#INDmenu-btn-moveArrow :first-child{stroke:none!important}#INDWrap{position:relative;position:absolute;width:100%;height:0;top:0;z-index:2147483647}@media print{#INDWrap{display:none!important}}#INDWrap template{display:none!important}#INDblindNotif{position:fixed!important}.INDloader{display:block;width:50%;height:auto;margin:20px auto}.INDloader:after{content:" ";display:block;width:50px;height:50px;margin:1px;border-radius:50%;border:5px solid var(--indmaincolor);border-color:var(--indmaincolor) transparent var(--indsecondcolor) transparent;animation:INDloader 1.2s linear infinite}@keyframes INDloader{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}#INDbtnWrap{margin:0;padding:0;border:none;z-index:10}#INDmenu-btn{position:fixed;margin:0 16px;padding:0;height:auto;width:auto;min-width:auto;border:none;outline:0;box-shadow:none;background:0 0;transform:scale(var(--indscale,1));transition:transform .6s;cursor:pointer}.INDpositionLeft #INDmenu-btn{direction:ltr;float:left;left:-62px}.INDpositionRight #INDmenu-btn{direction:rtl;float:right;right:-62px}.INDDesktop #INDmenu-btn{top:24px}.INDMobile #INDmenu-btn{bottom:24px}#INDmenu-btn svg{position:static!important;width:110px;height:67px;border:none;outline:0}.INDpositionLeft #INDmenu-btn svg{transform:scaleX(-1)}#INDmenu-btn svg :first-child{fill:var(--indmaincolor,#122231);stroke:#fff;stroke-width:14}#INDmenu-btn svg :last-child{fill:#fff;fill:var(--indsecondcolor,#fff)}#INDmenu-btn:focus svg :first-child{fill:#ffc;stroke:#122231;stroke-dasharray:40,10}#INDmenu-btn:focus svg :last-child{fill:#bf1722}#INDmenu-btn svg *{border:none;outline:0}#INDmenu-btn.INDdrag{filter:invert(1);cursor:move!important}.INDhasDragTooltip #INDWrap #INDmenu-btn-moveArrow{position:absolute!important;top:-50%!important;opacity:0;transition:opacity .3s ease-in-out}.INDhasDragTooltip #INDWrap #INDmenu-btn{cursor:move!important;overflow:hidden}.INDhasDragTooltip #INDWrap #INDmenu-btn:focus,.INDhasDragTooltip #INDWrap #INDmenu-btn:hover{overflow:unset}.INDhasDragTooltip #INDWrap #INDmenu-btn:focus #INDmenu-btn-moveArrow,.INDhasDragTooltip #INDWrap #INDmenu-btn:hover #INDmenu-btn-moveArrow{opacity:1}.INDhasDragTooltip #INDWrap #INDmenu-btn-moveArrow{display:none!important}.INDhasDragTooltip #INDWrap #INDmenu-btn:before{content:'';background-color:#122231;background-color:var(--indmaincolor,#122231);border:1px solid #fff;border:1px solid var(--indsecondcolor,#fff);opacity:0;transition:opacity .3s ease-in-out;position:absolute;top:-40%;width:100%;height:120px;z-index:-1;cursor:move}.INDhasDragTooltip #INDWrap #INDmenu-btn:after{content:attr(data-drag-content);background-color:#122231;background-color:var(--indmaincolor,#122231);border:1px solid #fff;border:1px solid var(--indsecondcolor,#fff);cursor:pointer;color:#fff;color:var(--indsecondcolor,#fff);opacity:0;transition:opacity .3s ease-in-out;position:absolute;top:-40%;left:unset;right:unset;width:auto;height:120px;padding:0 10px;font-size:18px;word-break:normal;word-wrap:normal;white-space:pre-line;line-height:1.2em;font-family:Open Sans Hebrew,Arial,Helvetica,sans-serif;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}.INDlangdirRTL.INDhasDragTooltip #INDWrap #INDmenu-btn:after{width:93px;line-height:1.4em}.INDpositionLeft #INDWrap #INDmenu-btn:after{border-radius:0 5px 5px 0}.INDpositionRight #INDWrap #INDmenu-btn:after{border-radius:5px 0 0 5px}.INDhasDragTooltip #INDWrap #INDmenu-btn:focus:after,.INDhasDragTooltip #INDWrap #INDmenu-btn:focus:before,.INDhasDragTooltip #INDWrap #INDmenu-btn:hover:after,.INDhasDragTooltip #INDWrap #INDmenu-btn:hover:before{opacity:1}#INDquickAccess,#INDquickAccess li,#INDquickAccess ul{height:0;list-style:none}#INDquickAccess ul{margin:0;padding:0;list-style:none}#INDquickAccess li{margin:0}#INDquickAccess button{position:fixed;top:-300px;margin:0;padding:8px 16px;height:auto;width:auto;font-size:24px;font-weight:700;text-align:center;line-height:normal!important;cursor:pointer;color:#fff;background:#000;border-radius:4px;border:1px solid #fff;transition:top .6s;z-index:10}.INDMobile #INDquickAccess button{font-size:18px}.INDlangdirRTL #INDquickAccess button{font-family:Spacer,Arial,sans-serif}.INDlangdirLTR #INDquickAccess button{font-family:Verdana,Geneva,sans-serif}.INDpositionLeft #INDquickAccess button{left:180px}.INDpositionRight #INDquickAccess button{right:180px}#INDquickAccess button:focus{top:0}:not(#INDdummy).INDtooltip,:not(#INDdummy).INDtooltip *{line-height:24px;font-family:Alef,Open Sans Hebrew,Arial,sans-serif;font-size:16px}:not(#INDdummy).INDtooltip{position:absolute;top:2px;margin:0;padding:7px 21px;width:auto;min-width:192px;box-sizing:content-box;text-align:center;letter-spacing:.7px;border:none;border-radius:8px;-webkit-filter:drop-shadow( 0 0 2px #fff );-moz-filter:drop-shadow( 0 0 2px #fff );-ms-filter:drop-shadow( 0 0 2px #fff );filter:drop-shadow( 0 0 2px #fff );opacity:.87}:not(#INDdummy):not(INDdummy).INDtooltip{color:#fff!important;background:#000!important}:not(#INDdummy):not(INDdummy).INDtooltip *{color:#fff!important}.INDpositionLeft :not(#INDdummy).INDtooltip{float:left}.INDpositionRight :not(#INDdummy).INDtooltip{float:right}.INDlangdirLTR :not(#INDdummy).INDtooltip{direction:ltr}.INDlangdirRTL :not(#INDdummy).INDtooltip{direction:rtl}:not(#INDdummy).INDtooltip:after{content:"";position:absolute}:not(#INDdummy).INDtooltip.INDtipLeft:after,:not(#INDdummy).INDtooltip.INDtipRight:after{top:17px;margin-top:-8px;border-top:8px solid transparent;border-bottom:8px solid transparent}:not(#INDdummy).INDtooltip.INDtipBottom:after,:not(#INDdummy).INDtooltip.INDtipTop:after{border-left:8px solid transparent;border-right:8px solid transparent}.INDlangdirRTL :not(#INDdummy).INDtooltip.INDtipBottom:after,.INDlangdirRTL :not(#INDdummy).INDtooltip.INDtipTop:after{right:17px;margin-right:-8px}.INDlangdirLTR :not(#INDdummy).INDtooltip.INDtipBottom:after,.INDlangdirLTR :not(#INDdummy).INDtooltip.INDtipTop:after{left:17px;margin-left:-8px}:not(#INDdummy).INDtooltip.INDtipLeft:after{left:100%;border-left:8px solid #000}:not(#INDdummy).INDtooltip.INDtipRight:after{right:100%;border-right:8px solid #000}:not(#INDdummy).INDtooltip.INDtipTop:after{top:100%;border-top:8px solid #000}:not(#INDdummy).INDtooltip.INDtipBottom:after{bottom:100%;border-bottom:8px solid #000}:not(#INDdummy).INDhiddenText{display:inline-block;color:#000;background:#fff;position:absolute;height:1px;width:1px;overflow:hidden;clip:rect(1px,1px,1px,1px)}#INDmenu{position:fixed;top:0;margin:0;padding:0;width:auto;z-index:20;visibility:visible;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none;border:none;border-top:27px solid #17384c;border-bottom:13px solid #17384c;background:#fff;transition:left .4s ease-in,right .4s ease-in,top .4s ease-in,visibility .4s ease-in!important}.INDpositionLeft #INDmenu{left:0;right:initial!important;border-right:4px solid #17384c}.INDpositionRight #INDmenu{right:0;left:initial!important;border-left:4px solid #17384c}#INDmenu[aria-hidden=true]{visibility:hidden}.INDpositionLeft #INDmenu[aria-hidden=true]{left:-400px}.INDpositionRight #INDmenu[aria-hidden=true]{right:-400px}#INDmenu :focus{outline:1px solid #4d90fe!important;outline:1px auto #4d90fe!important}#INDerror,#INDloader{background:#fff;width:127px;text-align:center}#INDerror{width:313px}#INDerror h2{display:block;-webkit-text-stroke:initial;-moz-text-stroke:initial;-ms-text-stroke:initial}#INDerror h2,#INDloader img{margin:24px 0;width:auto;line-height:initial;letter-spacing:initial}#INDerror *{font-family:Arial,Helvetica,sans-serif;font-weight:500;font-size:25px;color:#444}#INDpopup{position:fixed;top:0;right:0;bottom:0;left:0;background:rgba(0,0,0,.7);z-index:99999999999;pointer-events:auto;opacity:1;transition:opacity 250ms ease-in}.INDlangdirLTR #INDpopup{direction:ltr}.INDlangdirRTL #INDpopup{direction:rtl}#INDpopup:not(.open){opacity:0;visibility:hidden;pointer-events:none;transition:opacity 250ms ease-in,visibility 0s ease 250ms}#INDpopup>div{display:flex;flex-direction:column;position:fixed;margin:0;width:660px;height:540px;top:calc((100vh - 540px)/ 2);left:calc(50% - 330px);background:#fff;border:0 solid #888;border-radius:10px;padding:12px 12px 44px;background-color:#122231;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}#INDpopup>div:not(#INDdummy):not(.INDopenCmdLeg).flyingfocus_target_style{padding:12px 12px 44px!important}#INDpopup .INDpopupContent{flex-grow:1;box-sizing:border-box;width:100%;height:100%;-webkit-overflow-scrolling:touch;overflow-y:hidden;border-radius:10px;overflow:hidden;font-family:Arial,sans-serif;font-size:16px;text-align:left;direction:ltr;color:#333;line-height:1.3em}#INDpopup .INDpopupContent #INDdictionaryPopupWrapper{width:100%;margin:0 auto;padding:15px 20px;height:100%;background-color:#fff}.INDSafari #INDpopup .INDpopupContent{overflow-y:auto!important}#INDpopup>div .INDpopupClose{color:#fff;font-weight:700;position:absolute;top:6px;left:13px;font-size:22px;display:inline-block;width:auto;background:0 0;border:none;padding:0;margin:0;cursor:pointer;font-family:Open Sans Hebrew,Arial,Helvetica,sans-serif;width:17px;height:21px;text-align:center;line-height:1em;vertical-align:top}#INDpopup>div #INDpopupHead{color:#fff!important;font-size:22px;text-align:center;margin:0;padding:10px 0 20px;border:0;line-height:1.1em;font-weight:400;text-align:center;height:auto;width:100%;position:static;font-family:Open Sans Hebrew,Arial,Helvetica,sans-serif;-webkit-text-fill-color:unset;-moz-text-fill-color:unset;-ms-text-fill-color:unset;-o-text-fill-color:unset;-webkit-text-stroke:unset;-moz-text-stroke:unset;-ms-text-stroke:unset;-o-text-stroke:unset}body.INDmodalOpen{overflow:hidden}#INDpopup iframe{width:100%;height:100%;border:0 solid #ddd;background:0 0!important;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;border-radius:10px;overflow:hidden}#INDpopup .INDpopupConfirm{color:#fff;font-size:18px;width:auto;height:auto;margin:0;padding:0;border-radius:0;display:inline-block;background:0 0;border:none;box-shadow:none;cursor:pointer;position:absolute;bottom:7px;left:8px;font-family:Open Sans Hebrew,Arial,Helvetica,sans-serif}#INDWrap[lang=en] #INDpopup .INDpopupConfirm{right:8px;left:auto}#INDWrap[lang=en] #INDpopup>div .INDpopupClose{right:13px;left:auto}@media screen and (max-width:800px){#INDpopup>div{width:100%;height:100%;top:0;right:0;left:0;border-radius:0}#INDWrap[lang=en] #INDpopup>div{height:100%}}:not(#INDdummy).INDkeyboardIcon{white-space:nowrap;font-size:smaller}:not(#INDdummy).INDkeyboardIcon kbd{display:inline-flex;justify-content:center;align-items:center;box-sizing:border-box;height:24px;min-width:24px;border:.2em solid;border-radius:.3em;border-color:#ddd #bbb #777 #999;background-color:#fff!important;background-image:linear-gradient(to bottom left,#eee,#fff,#eee);padding:.1em .3em;font-family:Arial,sans-serif;font-family:monospace;font-weight:400;vertical-align:bottom}:not(#INDdummy).INDkeyboardIcon kbd,:not(#INDdummy).INDkeyboardIcon kbd *{color:#000!important;font-size:12px}:not(#INDdummy).INDkeyboardIcon kbd *{margin:none;padding:none;border:none}@media screen and (max-width:800px){.INDhasDragTooltip #INDWrap #INDmenu-btn:after{font-size:15px}}/* Nagich color */
+#INDmenu-btn {
+	--indmaincolor:      #122231;
+	--indsecondcolor:    White;
+}
+
+</style></head>
+<body style="margin: 35px" class="INDlangdirLTR INDpositionLeft INDDesktop INDChrome"><div id="INDWrap" lang="en" dir="ltr" style=""><div id="INDblindNotif" tabindex="-1" class="INDhiddenText" role="alert">Please note: This website includes an accessibility system. Press Control-F11 to adjust the website to the visually impaired who are using a screen reader; Press Control-F10 to open an accessibility menu.</div><div id="INDpopup" aria-hidden="true"><div role="dialog" aria-modal="true" aria-labelledby="INDpopupHead" tabindex="0"><h2 id="INDpopupHead" tabindex="0"></h2><div id="INDContent" class="INDpopupContent"></div><button class="INDpopupConfirm"></button></div></div><div id="INDdata" style="display: none;"></div><div id="INDmenu" aria-hidden="true"></div><div id="INDbtnWrap"><button id="INDmenu-btn" accesskey="m" aria-labelledby="INDbtnTooltip">				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 655.61 404.801" enable-background="new 0 0 655.61 404.801" xml:space="preserve">
+					<path d="M648.61,202.4c0,107.916-96.09,195.4-214.623,195.4H187.624
+						C103.091,397.801,7,310.316,7,202.4l0,0C7,94.484,103.091,7,187.624,7h212.363C552.52,7,648.61,94.484,648.61,202.4L648.61,202.4z"></path>
+					<path d="M177.979,283.354c11.381,21.244,33.839,35.699,59.637,35.703
+						c37.355-0.006,67.631-30.279,67.635-67.635c0.002-22.354-10.872-42.229-27.592-54.512c-3.587-2.641-8.637-1.873-11.276,1.717
+						c-2.639,3.588-1.87,8.637,1.717,11.275c12.763,9.404,21.019,24.465,21.019,41.52c-0.002,14.246-5.751,27.07-15.083,36.416
+						c-9.346,9.336-22.17,15.082-36.419,15.086c-19.663,0.004-36.722-11.002-45.422-27.199v0.002c-2.104-3.926-6.994-5.402-10.921-3.297
+						C177.349,274.535,175.873,279.426,177.979,283.354z M249.404,108.082c0-12.336-10.001-22.338-22.339-22.338
+						c-12.337,0-22.338,10.002-22.338,22.338c0,12.338,10.001,22.34,22.338,22.34C239.403,130.422,249.404,120.42,249.404,108.082z
+						 M142.754,278.146c-3.06,4.754-1.687,11.088,3.067,14.148c1.714,1.104,3.634,1.631,5.532,1.631c3.365,0,6.661-1.658,8.618-4.697
+						l31.724-49.287h42.194c0.098,0,0.193-0.014,0.29-0.016c1.114,0.209,2.262,0.322,3.437,0.322c10.279,0,18.612-8.334,18.612-18.615
+						V155.24c0-10.281-8.333-18.615-18.612-18.615c-6.84,0-12.813,3.689-16.05,9.186l-25.235,25.236l-29.416,0.002
+						c-4.625,0-8.373,3.748-8.373,8.375c0,4.625,3.748,8.377,8.373,8.377H199.8c2.205,0,4.365-0.895,5.924-2.453l13.278-13.279v47.396
+						h-32.891c-3.491,0-6.719,1.76-8.607,4.695L142.754,278.146z M129.093,167.498l17.998,38.471c0.665,1.422,2.084,2.324,3.653,2.324
+						h50.881c2.228,0,4.032-1.805,4.032-4.031c0-2.229-1.805-4.035-4.032-4.035H153.31l-16.912-36.148
+						c-0.941-2.016-3.343-2.885-5.36-1.941C129.021,163.078,128.149,165.48,129.093,167.498z"></path>
+				</svg></button><div id="INDbtnTooltip" role="tooltip" aria-hidden="true" class="INDtooltip" style="display: none;">Open accessibility options menu</div></div><div id="INDquickAccess"><ul><li><button accesskey="b" tabindex="1">Press <span class="INDkeyboardIcon">‎<kbd>↵ Enter</kbd>‎</span> for Accessibility for blind people<span class="INDhiddenText"> who use screen readers</span></button></li><li><button accesskey="k" tabindex="1">Press <span class="INDkeyboardIcon">‎<kbd>↵ Enter</kbd>‎</span> for Keyboard Navigation</button></li><li><button tabindex="1">Press <span class="INDkeyboardIcon">‎<kbd>↵ Enter</kbd>‎</span> for Accessibility menu</button></li></ul></div></div>
+
+<div id="header">
+<form action="https://www.cs.bgu.ac.il/~caspl202/index.php" method="post" class="main-search" id="search-form">
+<input type="hidden" name="page" value="Search">
+<a href="https://www.cs.bgu.ac.il/~caspl202/Search">Search</a> &nbsp;
+<input type="text" name="q" value="">
+<input type="submit" value="Go">
+</form>
+<div class="title"><a href="https://www.cs.bgu.ac.il/~caspl202/index.php">Computer Architecture and system programming laboratory - 2020/Spring</a></div>
+</div>
+
+<div id="container">
+
+<div id="left-sidebar">
+  <ul>
+<li> <a href="https://www.cs.bgu.ac.il/~caspl202/Main">Main</a></li><li> <a href="http://www.cs.bgu.ac.il/~shimony/arch2020/arch_syl.html"> Syllabus</a>
+</li><li> <a href="https://www.cs.bgu.ac.il/~caspl202/CourseInfo">Course info</a>: <a href="http://www.cs.bgu.ac.il/academics/courses/2020/b/20212091.html">Arch&amp;SPlab</a>,
+<a href="http://www.cs.bgu.ac.il/academics/courses/2020/b/20212071.html">Splab</a>, <a href="http://www.cs.bgu.ac.il/academics/courses/2020/b/20213041.html">Arch only</a>.
+</li><li> <a href="https://www.cs.bgu.ac.il/~caspl202/Announcements">Announcements</a></li><li> <a href="https://www.cs.bgu.ac.il/~caspl202/Assignments">Assignments</a></li><li> <a href="https://www.cs.bgu.ac.il/~caspl202/Class_Material">Class material</a></li><li> <a href="https://www.cs.bgu.ac.il/~caspl202/Practical_Sessions">Practical sessions</a></li><li> <a href="https://www.cs.bgu.ac.il/~caspl202/Lab_Sessions">Lab sessions</a></li><li> <a href="https://www.cs.bgu.ac.il/~caspl202/Lab_Completions">Lab Completions</a></li><li> <a href="https://www.cs.bgu.ac.il/~caspl202/Previous_Exams">Previous exams</a></li><li> <a href="https://www.cs.bgu.ac.il/~caspl202/Useful_Links">Useful links</a></li><li> <a href="https://www.cs.bgu.ac.il/~caspl202/Forum">Forum</a></li><li> <a href="https://www.cs.bgu.ac.il/~caspl202/Labs_Forum">Labs Forum</a></li><li> <a href="https://www.cs.bgu.ac.il/~caspl202/Administrative_Q_And_A">Administrative Q&amp;A</a></li><li> <a href="http://cs-serv.cs.bgu.ac.il/cs_service/subsys.html" class="external" rel="nofollow">Submission system</a>
+</li></ul>
+    <br>
+  
+    <ul>
+      <li><a href="https://www.cs.bgu.ac.il/~caspl202/CsWiki/RecentChanges">recent changes</a></li>
+      <li><a href="https://www.cs.bgu.ac.il/~caspl202/Login?return=Assignments.Assignment_2">login</a></li>
+    </ul>
+  
+  
+</div>
+
+<div id="center-container">
+    
+<div id="navigate-bar">
+  <div class="actions">
+  <a href="https://www.cs.bgu.ac.il/~caspl202/Assignments/Assignment_2?format=standalone" rel="nofollow">printable version</a>  </div>
+  • <a href="https://www.cs.bgu.ac.il/~caspl202/Assignments">Assignments</a> » <a href="https://www.cs.bgu.ac.il/~caspl202/Assignments/Assignment_2">Assignment 2</a></div>
+
+<div id="main">
+<div class="info" style="display:none" id="message-info"></div>
+<div class="warning" style="display:none" id="message-error"></div>
+
+
+<table class="toc"><tbody><tr><td id="showtoc5ebe85f374bdf" style="display:none"><b>Contents</b> (<a onclick="document.getElementById(&#39;toc5ebe85f374bdf&#39;).style.display=&#39;&#39;;document.getElementById(&#39;showtoc5ebe85f374bdf&#39;).style.display=&#39;none&#39;">show</a>)</td></tr><tr id="toc5ebe85f374bdf"><td><b>Contents</b> (<a onclick="document.getElementById(&#39;toc5ebe85f374bdf&#39;).style.display=&#39;none&#39;;document.getElementById(&#39;showtoc5ebe85f374bdf&#39;).style.display=&#39;&#39;">hide</a>)<br><div style="margin-left: 8px">1&nbsp;<a href="https://www.cs.bgu.ac.il/~caspl202/Assignments/Assignment_2#assignment_description">Assignment Description</a></div>
+<div style="margin-left: 12px">1.1&nbsp;<a href="https://www.cs.bgu.ac.il/~caspl202/Assignments/Assignment_2#the_required_operations">The required operations</a></div>
+<div style="margin-left: 12px">1.2&nbsp;<a href="https://www.cs.bgu.ac.il/~caspl202/Assignments/Assignment_2#assumptions">Assumptions</a></div>
+<div style="margin-left: 12px">1.3&nbsp;<a href="https://www.cs.bgu.ac.il/~caspl202/Assignments/Assignment_2#debug_option">Debug option</a></div>
+<div style="margin-left: 12px">1.4&nbsp;<a href="https://www.cs.bgu.ac.il/~caspl202/Assignments/Assignment_2#code_requirements">Code Requirements</a></div>
+<div style="margin-left: 12px">1.5&nbsp;<a href="https://www.cs.bgu.ac.il/~caspl202/Assignments/Assignment_2#run_example">Run example</a></div>
+<div style="margin-left: 12px">1.6&nbsp;<a href="https://www.cs.bgu.ac.il/~caspl202/Assignments/Assignment_2#submission_instructions">Submission Instructions</a></div>
+<div style="margin-left: 12px">1.7&nbsp;<a href="https://www.cs.bgu.ac.il/~caspl202/Assignments/Assignment_2#recommended_implementation_of_unlimited_precision">Recommended Implementation of Unlimited Precision</a></div>
+</td></tr></tbody></table><h1>Assignment 2: RPN Calculator</h1>
+<h2 id="assignment_description">Assignment Description</h2>
+You are to write a simple calculator for unlimited-precision unsigned integers.
+<p>
+Your code will be written <b>entirely in assembly language</b>. <br>
+No C code is allowed, although you can use the C standard library functions mentioned in the list below by <b>linking</b>
+with the C standard library. <br></p><p>
+</p><p>
+<b>Reverse Polish notation (RPN)</b> is a mathematical notation in which every operator follows all its operands, for example "3 + 4" would be presented as <b>"3 4 +"</b>.For simplicity, each operator will appear on a separate line of input. Input and output operands are to be in <b>hexadecimal</b> representation. <br><br>
+Your program should prompt ‘calc: ‘ and wait for input. Each number or operator is entered in a separate line. For example, to do the calculation “0x7A+9” a user should type:<br>
+</p><p>
+</p><pre class="code">calc: 7A
+calc: 09
+calc: +
+</pre>
+
+<p></p><p>
+Operations are performed as is standard for an RPN calculator: any input number is pushed onto an <b>operand stack</b>. Each operation is performed on operands which are popped from the operand stack. The result, if any, is pushed onto the operand stack. 
+The output should contain no leading zeroes, but the input may have some leading zeroes.<br>
+</p><p>
+Note: you may <b>not</b> use the 80X86 machine stack (with the ESP stack pointer) as an operand stack, and must implement a <b>separate</b> operand 
+stack inside a dynamically allocated array, of size 5 by default.  
+In order to change it to a different number, the user enter a command-line argument, the opereand stack size in hexadecimal digits.
+Your program should work correctly with any operand stack size greater than 2.<br>
+</p><p>
+You should print out <b>"Error: Operand Stack Overflow"</b> if the calculation attempts to push operands onto the operand stack and there is no free space on the operand stack.<br>
+You should print out <b>"Error: Insufficient Number of Arguments on Stack"</b> if an operation attempts to pop an empty stack. 
+In any case of error, your program must return the stack to its previous state (as it was before the failed action).
+Your program should also count the number of operations (both successful and unsuccessful) performed. 
+This is the return valued which returned to function main. 
+The size of the operands is unbounded, except by the size of available heap space on your virtual memory.<br>
+</p><h3 id="the_required_operations">The required operations</h3>
+The operations to be supported by your calculator are:<br>
+<ul>
+<li><b>‘q’ – quit</b>
+</li><li><b>‘+’ –  unsigned addition</b> <br>
+pop two operands from operand stack, and push the result, their sum
+</li><li><b>‘p’ – pop-and-print</b><br>
+pop one operand from the operand stack, and print its value to stdout
+</li><li><b>‘d’ – duplicate</b><br>
+push a copy of the top of the operand stack onto the top of the operand stack
+</li><li><b>‘&amp;’ - bitwise AND</b>, X&amp;Y with X being the top of operand stack and Y the element next to x in the operand stack.<br>
+pop two operands from the operand stack, and push the result.
+</li><li><b>‘|’ - bitwise OR</b>, X|Y with X being the top of operand stack and Y the element next to x in the operand stack.<br>
+pop two operands from the operand stack, and push the result.
+</li><li><b>‘n’ – number of hexadecimal digits</b><br>
+pop one operand from the operand stack, and push one result.
+</li><li><b>‘*’ – unsigned multiplication </b> (bonus item<font color="0000ff">*</font>)<br> 
+pop two operands from operand stack, and push the result, their product. You are <span class="mark">not allowed</span> to implement x*y as x+x+x+…+x, y times. 
+</li></ul>
+<h3 id="assumptions">Assumptions</h3>
+<ul>
+<li>You may assume that the input is correct (i.e. numbers in upper-case hexa, no illegal characters)
+</li><li>The stack size is at most 255 (0xFF)
+</li><li>Each input line is no more than 80 characters in length
+</li></ul>
+<h3 id="debug_option">Debug option</h3>
+Your program should allow <b>“-d” command line argument</b>, which means  a <b>debug option</b>. When "-d" option is set, you should print out to stderr various debugging messages (as a minimum, print out every number read from the user, and every result pushed onto the operand stack). This part would not be checked via automatic tests, so there is no predefined exact format of debugging messages.
+<h3 id="code_requirements">Code Requirements</h3>
+Provide a single assembly language file called calc.s.<br>
+Calculator functions, as well as input and output functions, must be programmed as procedures (subroutines, or functions) to maintain modularity. 
+You may use gets() or fgets() C standard library functions 
+for user input, and printf() C standard library function to print out calculated results or error messages. In "main" call myCalc(), which is your primary procedure. When user enters "q", your program should exit, by having myCalc() return the total number of operations performed, not including the 'q' operation, to the "main" code, which should print out that number before exiting (in hexa). <br>
+You may use 'stdin' C standard library variable
+(note that 'FILE * stdin' is variable and not constant; so if you use fgets with stdin, you should push content of stdin as argument into stack - push dword [stdin])
+<br><br>
+You may call <span class="mark">only</span> the following C standard library functions <b>from your assembly language code</b>:
+<p></p><p>
+</p><ul>
+<li>gets, getchar, fgets, printf, fprintf, fflush, malloc, calloc, free
+</li></ul>
+<br>
+If you use the above functions, you should declare them as extern, as follows (declarations can be as below, or at the beginning of the file):
+<p></p><p>
+</p><pre class="code">section .text
+  align 16
+  global main
+  extern printf
+  extern fprintf 
+  extern fflush
+  extern malloc 
+  extern calloc 
+  extern free 
+  extern gets 
+  extern getchar 
+  extern fgets 
+main:</pre>
+
+<p></p><p>
+</p><ul>
+<li>Declare a label "main:" and "global main" in your assembly program
+</li><li>Declare C library functions as extern, so you will be able to call them 
+</li><li>Note: there is no need for a C file! The gcc linker will link external C standard library functions object code to your object code
+</li><li>Compile and link your assembly file calc.s as follows:
+</li></ul>
+<br>
+<pre class="code">nasm -f elf calc.s -o calc.o
+gcc -m32 -Wall -g calc.o -o calc
+</pre>
+
+<h3 id="run_example">Run example</h3>
+An example of user input and program output appears below. <br>
+Comments (which will not appear in input or output) are preceded by ";". 
+<p></p><p>
+</p><pre class="code">\&gt; ./calc A     ; user starts the program with stack size 10
+calc: 9         ; user enters a number
+calc: 1         ; user enters a number
+calc: +         ; user enters “addition” operator
+                ; Ox9+0x1 =0xA
+                ; Ox9 and 0x1 are popped, 0xA is pushed
+calc: d         ; user enters “duplicate” operator, OxA is duplicated
+calc: p         ; user enters pop-and-print-operator, OxA is popped and printed
+A
+calc: +         ; user enters “addition” operator, but there is not enough numbers in stack
+Error: Insufficient Number of Arguments on Stack
+calc: FE        ; user inputs a number
+calc: n         ; user enters "number of hexadecimal digits” operator
+                ; OxFE is popped and is used as an argument
+                ; OxFE has length 2, so the number 2 is pushed
+calc: d         ; user enters “duplicate” operator, Ox2 is duplicated
+calc: p         ; user enters pop-and-print-operator, Ox2 is popped and printed
+2
+calc: &amp;         ; user enters "X bitwise AND Y" operation
+                ; X=0x2, Y=0xA, X&amp;Y=0x2
+                ; 0x2 and OxA are popped, 0x2 is pushed
+calc: 39        ; user enters a number
+calc: |         ; user enters "X bitwise OR Y" operation
+                ; X=0x39, Y=0x2, X|Y=0x3B
+                ; 0x39 and 0x2 are popped, 0x3B is pushed
+calc: AB        ; user inputs a number
+calc: *         ; user enters "multiplication" operator
+                ; X=0xAB, Y=0x3B, X*Y=0x2769
+                ; 0xAB and 0x3B are popped, 0x2769 is pushed
+calc: p         ; 0x2769 is popped and printed
+‭2769
+calc: 1         ; user enters a number
+calc: 2         ; user enters a number
+calc: 3         ; user enters a number
+calc: 4         ; user enters a number
+calc: 5         ; user enters a number
+calc: 6         ; user enters a number
+calc: 7         ; user enters a number
+calc: 8         ; user enters a number
+calc: 9         ; user enters a number
+calc: A         ; user enters a number
+calc: B         ; user enters a number, but the stack is full
+Error: Operand Stack Overflow
+calc: q         ; quit calculator
+B               ; number of operations (successful and not successful) is printed from main function
+                ; you do not count ‘q’ operation
+                ; your program should exit
+</pre>
+
+<h3 id="submission_instructions">Submission Instructions</h3>
+Submit a single zip file, <b>ID1_ID2.zip</b> , includes a single assembly file calc.s . Do not add new directory structure to the zip file! Make sure you follow the coding and submission instructions correctly (print exactly as requested). <b>Submissions which deviate from these instructions will not be graded!</b>
+<h3 id="recommended_implementation_of_unlimited_precision">Recommended Implementation of Unlimited Precision</h3>
+In order to support <b>unlimited precision numbers</b>, each operand in the operand stack is stored as a linked list of bytes. A linked list is implemented as follows. You should, conceptually, have a struct consisting of a single byte of data and of a pointer to the next byte. Since there are no types in assembly language, any memory block of the required size (5 bytes in this case: 4 bytes for the pointer, one byte for the data) can be seen as an element of this type. Use <b>malloc()</b> or  <b>calloc()</b> C standard library functions for dynamic memory allocation on demand. 
+Ensure that you <b>free memory</b> when numbers are popped from the operand stack to avoid memory leaks.<br>
+<p></p><p>
+We recommend storing bytes of a number from right to left, so that the implementation of operations would be easier. If the operation you execute results in a carry from the most significant byte of the number, additional bytes must be allocated to store the result. The operand stack is best implemented as an array of pointers - each pointing to the first element of the list representing the number, or null (a null pointer has value 0). The operand stack size should be 5 pointers (5*4=20 bytes) by default. <br>
+</p><p>
+<u>Example:</u><br>
+<b>0x7D12AF</b> could be represented by the following linked list:
+</p><p>
+<img src="./Assignment 2_files/assignment2Image1.png" alt="assign2/assignment2Image1.png" title="assign2/assignment2Image1.png"></p><p>
+Suppose you insert the following numbers: <br>
+</p><p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;calc: 123456 <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;calc: 1885 <br>
+</p><p>
+Then, your operand stack should be as follows: <br>
+</p><p>
+<img src="./Assignment 2_files/assignment2Images2.png" alt="assign2/assignment2Images2.png" title="assign2/assignment2Images2.png"></p><p>
+Suppose you insert an addition action: <br>
+</p><p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;calc: + <br>
+</p><p>
+Then, after the execution of the addition, your operand stack should be as follows: <br>
+</p><p>
+<img src="./Assignment 2_files/assignment2Images4.png" alt="assign2/assignment2Images4.png" title="assign2/assignment2Images4.png"></p>
+
+</div>
+
+
+</div>
+
+</div>
+    
+<div id="footer">
+Page last modified on 15 May 2020,  15:07 by <b>doronv</b><br>
+powered by <a href="http://www.cs.bgu.ac.il/~ygleyzer/course.wiki/">CourseWiki 2.4.2</a>
+, <a href="http://www.gzip.org/">gzip</a> supported
+<br>
+generated in 0.00050502 sec.
+</div>
+
+
+
+
+</body><iframe src="./Assignment 2_files/saved_resource.html" title="IND - Default Props" style="display: none;"></iframe></html>
