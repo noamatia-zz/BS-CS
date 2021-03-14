@@ -1,0 +1,21 @@
+all: exec
+
+c-lib: LineParser.c
+	# flags meanings:
+	# -g = debug symbols
+	# -m32 = compile to x86_32 architecture (32bit)
+	# -c = Don't link (i.e., create an object file, not an executable)
+	# -o LineParser.o = output compiled file to LineParser.o
+	gcc -g -m32 -c -o LineParser.o LineParser.c
+
+exec: task1.c c-lib
+	gcc -g -m32 -c -o task1.o task1.c
+	gcc -g -m32  task1.o LineParser.o -o task1
+	rm task1.o LineParser.o
+
+valgrind: 
+	valgrind --leak-check=full ./task1
+
+.PHONY: clean
+clean:
+	rm -rf ./*.o task1
