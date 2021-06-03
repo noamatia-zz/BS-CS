@@ -8,7 +8,7 @@ import time
 dataset_name = 'iris.csv'
 class_col = 'variety'
 gen_sizes = [1, 10, 20, 30]  # must be even
-nums_of_gens = [1, 10, 20, 30]
+nums_of_gens = [0, 10, 20, 30]
 nums_of_parents = [1, 2, 3]  # only 1-3 is supported
 nums_of_bests = [0, 2, 4]  # must be even
 epochs_list = [1, 10, 20, 30]
@@ -28,7 +28,12 @@ def evolution(gen_size, num_of_gens, num_of_parents, num_of_bests, epochs, to_pr
 
     # initializing generation 0
     for i in range(0, gen_size):
-        cur_gen.append(Organism())
+        cur_gen.append(Organism().forward_propagation(X_train, Y_train))
+    cur_gen = sorted(cur_gen, key=lambda x: x.fitness)
+    cur_gen.reverse()
+    best_org_fit = cur_gen[0].fitness
+    for layer in cur_gen[0].layers:
+        best_org_weights.append(layer.get_weights()[0])
 
     # start evolution
     while n_gen < num_of_gens:
