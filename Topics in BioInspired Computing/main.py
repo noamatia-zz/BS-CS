@@ -7,7 +7,7 @@ import time
 # params
 dataset_name = 'iris.csv'
 class_col = 'variety'
-gen_sizes = [1, 10, 20, 30]  # must be even
+gen_sizes = [10, 20, 30]  # must be even
 nums_of_gens = [0, 10, 20, 30]
 nums_of_parents = [1, 2, 3]  # only 1-3 is supported
 nums_of_bests = [0, 2, 4]  # must be even
