@@ -1,0 +1,119 @@
+model library
+
+
+class Library
+	attributes
+	    name: String
+end
+
+class Stack
+	attributes
+		open: Boolean
+end
+
+class LibraryItem
+	attributes
+		title: String
+		publicationDate: Date
+	    reserved: Boolean
+	    numberOfMaxDays: Integer
+		fine: Integer
+end
+
+class Journal < LibraryItem
+ attributes
+    rank: String
+end
+
+class Book < LibraryItem
+ attributes
+    numberOfCopies: Integer
+	numberOfEditions: Integer
+end
+
+class ReferenceBook < Book
+end
+
+class RegularBook < Book
+end
+
+class User
+	attributes
+		id: Integer
+		status: UserStatus
+end
+
+class Academic < User
+end
+
+class Student < User
+	attributes
+		year: Integer
+end
+
+class Copy
+	attributes
+     	loanPeriod: Integer
+		electronic: Boolean
+end
+
+class Fine
+	attributes
+		amount: Integer
+		numberOfLoan: Integer
+		paid: Boolean
+end
+
+enum UserStatus {ACTIVE, BLOCKED, NOTACTIVE}
+
+class Date
+attributes
+		day: Integer
+		month: Integer
+		year: Integer
+end
+
+-----------------------------------------------Associations---------------------------------------------------------
+
+composition hasStack between
+	Library[1] role library
+	Stack[1..*] role Stack
+end
+
+association inStack between
+	Stack[0..1] role stack
+	Copy[1..*] role copy
+end
+
+association userFine between
+	Loan[1..*] role loan
+	Fine[*]  role fine
+end	
+
+association physicalItem between
+	LibraryItem[1] role libraryItem
+	Copy[1..*] role copy
+end
+
+associationclass Loan between
+	Copy[*] role myCopy
+	User[*] role borrower
+	attributes
+		dueDate: Date
+		returnDate: Date
+end
+
+association hasItems between
+	Library[1] role library
+	LibraryItem[*] role libraryItem
+end
+
+association copyFine between
+	Fine[*] role fine
+	Copy[1..*] role copy
+end
+
+association requests between
+	Copy[*] role requestedCopy
+	User[*] role userReq
+end

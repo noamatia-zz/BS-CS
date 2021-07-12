@@ -1,0 +1,103 @@
+model flights
+
+
+class Airport
+	attributes
+		id: Integer
+	    name: String
+end
+
+class City
+	attributes
+		id: Integer
+		name: String
+end
+
+class AirlineCompany
+	attributes
+		id: Integer
+		name: String
+end
+
+class Flight
+	attributes
+		number: Integer
+		status: FlightStatus
+		source: Airport
+		destination: Airport
+		depart: Time
+		return: Time
+end
+
+class Stopover
+	attributes
+		airport: Airport
+		arriving: Time
+		leaving: Time
+end
+
+class Time
+	attributes
+		date: Date
+		hour: Hour
+end
+
+class Date
+	attributes
+		day: Integer
+		month: Integer
+		year: Integer
+end
+
+class Hour
+	attributes
+		hour: Integer
+		minute: Integer
+end
+
+class Person
+	attributes
+		id: Integer
+		name: String	
+end
+
+class Passenger < Person
+end
+
+class Customer < Person
+end
+
+enum FlightStatus {OPEN, CLOSE}
+
+enum BookingStatus {APPROVED, DECLINED}
+
+-----------------------------------------------Associations---------------------------------------------------------
+
+association aviationService between
+	Airport[1] role airport
+	City[1..*] role city
+end
+
+association airlineFlights between
+	AirlineCompany[1] role airline
+	Flight[1..*] role flight
+end	
+
+association stopovers between
+	Flight[1] role flight
+	Stopover[0..*] role stopover
+end	
+
+associationclass Booking between
+	Flight[1] role flight
+	Passenger[1] role passenger
+	attributes
+		number: Integer
+		time: Time
+        status: BookingStatus
+end
+
+association reservation between
+	Customer[1] role customer
+	Booking[1..*] role booking
+end
