@@ -1,0 +1,181 @@
+model library
+
+
+class Library
+	attributes
+	    name: String
+end
+
+class Stack
+	attributes
+		open: Boolean
+end
+
+
+class LibraryItem
+	attributes
+		title: String
+		publicationDate: Date
+	    reserved: Boolean
+	    numberOfMaxDays: Integer
+		fine: Integer
+end
+
+class Journal < LibraryItem
+ attributes
+    rank: String
+end
+
+
+class Book < LibraryItem
+	attributes
+		numberOfCopies: Integer
+		numberOfEditions: Integer
+
+end
+
+class ReferenceBook < Book
+end
+
+class RegularBook  < Book
+end
+
+
+class User
+	attributes
+		id: Integer
+		status: UserStatus
+end
+
+
+class Academic < User
+end
+
+
+class Student < User
+	attributes
+		year: Integer
+end
+
+class Copy
+	attributes
+     	loanPeriod: Integer
+		electronic: Boolean
+end
+
+
+
+
+class Fine
+	attributes
+		amount: Integer
+		numberOfLoan: Integer
+		paid: Boolean
+end
+
+
+enum UserStatus {ACTIVE, BLOCKED, NOTACTIVE}
+
+class Date
+attributes
+		day: Integer
+		month: Integer
+		year: Integer
+
+end
+
+-----------------------------------------------Associations---------------------------------------------------------
+
+composition hasStack between
+	Library[1] role library
+	Stack[1..*] role stack
+
+end
+
+association inStack between
+	Stack[0..1] role stack
+	Copy[1..*] role copy
+
+end
+
+
+association userFine between
+	Loan[1..*] role loan
+	Fine[0..*]  role fine
+end	
+
+
+association physicalItem between
+	LibraryItem[1] role libraryItem
+	Copy[1..*] role copy
+end
+
+
+associationclass Loan between
+	Copy[*] role myCopy
+	User[0..*] role borrower
+	attributes
+		dueDate: Date
+		returnDate: Date
+end
+
+
+
+association hasItem between
+	LibraryItem[*]
+	Library[1]
+end
+
+
+association requests between
+	User[*] role userReq
+	Copy[*] role requestedCopy
+end
+
+association history between
+	User[*] role archived
+	Copy[*] role allCopy
+end
+
+
+
+association copyFine between
+	Copy[1..*] role copy
+	Fine[*] role fine
+end
+
+
+-----------------------------------------------Constraints---------------------------------------------------------
+constraints
+--Example:
+context Fine
+	inv constraint1:
+	    self.loan.myCopy->asSet()=self.copy
+		
+context Book
+	inv constraint2:
+		self.copy->size()=self.numberOfCopies
+		
+context Fine
+	inv constraint3:
+		self.loan->size()=self.numberOfLoan
+
+context Loan
+	inv constraint4:
+		self.borrower.status=#ACTIVE implies self.fine->forAll(paid=true)
+		
+context ReferenceBook
+	inv constraint5:
+		self.copy->forAll(loanPeriod<=self.numberOfMaxDays)
+		
+context Journal
+	inv constraint6:
+		self.reserved=true implies self.copy->forAll(borrower->forAll(oclIsTypeOf(Academic)))
+
+
+
+
+
+
+
+
